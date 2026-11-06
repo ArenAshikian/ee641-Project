@@ -1,0 +1,9 @@
+{
+  "channels": 128,
+  "blocks": 10,
+  "batch_size": 64,
+  "steps": 6,
+  "positions_per_second": 930.5,
+  "peak_allocated_gpu_gib": 0.15,
+  "synthetic": true
+}

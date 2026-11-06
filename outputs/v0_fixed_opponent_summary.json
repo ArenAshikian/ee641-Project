@@ -1,0 +1,51 @@
+{
+  "created_utc": "2026-11-05T09:49:54.689084+00:00",
+  "candidate": {
+    "blocks": 6,
+    "channels": 96,
+    "sha256": "6b212f5476533c9de7f01fc44aa70eb4ef10e5331707cb7fc38520a81096f6a9",
+    "path": "B:\\EE641_Chess_RL_Starter\\checkpoints\\supervised_1000000_balanced.pt"
+  },
+  "opening_count": 50,
+  "games_per_opponent": 100,
+  "seed": 7,
+  "max_plies_after_opening": 300,
+  "opening_method": "deterministic shallow randomized openings, with both colors",
+  "search_baseline_policy": "Stockfish depth one, if available, evaluation only; no training labels.",
+  "limitations": [
+    "Not a tournament Elo rating.",
+    "Randomized opening positions are not a representative opening book.",
+    "Truncated games are excluded from completed-game scores.",
+    "Confidence intervals resample paired-color openings."
+  ],
+  "opponents": {
+    "random_legal": {
+      "games": 100,
+      "completed_games": 100,
+      "wins": 81,
+      "draws": 19,
+      "losses": 0,
+      "truncated": 0,
+      "mean_score_completed_only": 0.905,
+      "paired_opening_bootstrap_95_percent_ci": [
+        0.865,
+        0.945
+      ],
+      "note": "Score excludes truncated games; bootstrap CI uses only complete color-swapped opening pairs."
+    },
+    "supervised_100000": {
+      "games": 100,
+      "completed_games": 100,
+      "wins": 53,
+      "draws": 46,
+      "losses": 1,
+      "truncated": 0,
+      "mean_score_completed_only": 0.76,
+      "paired_opening_bootstrap_95_percent_ci": [
+        0.705,
+        0.81
+      ],
+      "note": "Score excludes truncated games; bootstrap CI uses only complete color-swapped opening pairs."
+    }
+  }
+}

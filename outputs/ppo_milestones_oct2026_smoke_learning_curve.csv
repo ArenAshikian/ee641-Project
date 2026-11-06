@@ -1,0 +1,4 @@
+model,cumulative_ppo_games,games,expected_games,wins,draws,losses,truncated,completed_game_score,complete_opening_pairs,paired_ci95_low,paired_ci95_high
+ppo_50k,50240,4,4,2,1,1,0,0.625,2,,
+ppo_75k,75328,4,4,0,2,2,0,0.25,2,,
+ppo_100k,100416,4,4,0,2,2,0,0.25,2,,

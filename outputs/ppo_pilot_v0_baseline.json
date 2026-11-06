@@ -1,0 +1,37 @@
+{
+  "v0_supervised": {
+    "wins": 3,
+    "draws": 2,
+    "losses": 3,
+    "truncated": 0,
+    "score_completed": 0.5,
+    "termination_reasons": {
+      "CHECKMATE": 6,
+      "STALEMATE": 2
+    },
+    "games": 8
+  },
+  "random_legal": {
+    "wins": 7,
+    "draws": 1,
+    "losses": 0,
+    "truncated": 0,
+    "score_completed": 0.9375,
+    "termination_reasons": {
+      "CHECKMATE": 7,
+      "THREEFOLD_REPETITION": 1
+    },
+    "games": 8
+  },
+  "supervised_1m": {
+    "wins": 8,
+    "draws": 0,
+    "losses": 0,
+    "truncated": 0,
+    "score_completed": 1.0,
+    "termination_reasons": {
+      "CHECKMATE": 8
+    },
+    "games": 8
+  }
+}

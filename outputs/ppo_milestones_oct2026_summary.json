@@ -1,0 +1,142 @@
+{
+  "schema": 1,
+  "mode": "eval",
+  "rating": 1900,
+  "completed": true,
+  "models": {
+    "v0": {
+      "wins": 133,
+      "draws": 153,
+      "losses": 226,
+      "truncated": 0,
+      "total_games": 512,
+      "completed_games": 512,
+      "expected_games": 512,
+      "score_completed": 0.40918,
+      "complete_pairs": 256,
+      "ci95_paired": [
+        0.37402,
+        0.44238
+      ]
+    },
+    "latest_s49": {
+      "wins": 166,
+      "draws": 137,
+      "losses": 209,
+      "truncated": 0,
+      "total_games": 512,
+      "completed_games": 512,
+      "expected_games": 512,
+      "score_completed": 0.45801,
+      "complete_pairs": 256,
+      "ci95_paired": [
+        0.42283,
+        0.49316
+      ]
+    },
+    "ppo_50k": {
+      "wins": 181,
+      "draws": 149,
+      "losses": 181,
+      "truncated": 1,
+      "total_games": 512,
+      "completed_games": 511,
+      "expected_games": 512,
+      "score_completed": 0.5,
+      "complete_pairs": 255,
+      "ci95_paired": [
+        0.46667,
+        0.53529
+      ]
+    },
+    "ppo_75k": {
+      "wins": 189,
+      "draws": 139,
+      "losses": 184,
+      "truncated": 0,
+      "total_games": 512,
+      "completed_games": 512,
+      "expected_games": 512,
+      "score_completed": 0.50488,
+      "complete_pairs": 256,
+      "ci95_paired": [
+        0.4668,
+        0.54297
+      ]
+    },
+    "ppo_100k": {
+      "wins": 200,
+      "draws": 137,
+      "losses": 175,
+      "truncated": 0,
+      "total_games": 512,
+      "completed_games": 512,
+      "expected_games": 512,
+      "score_completed": 0.52441,
+      "complete_pairs": 256,
+      "ci95_paired": [
+        0.4873,
+        0.5625
+      ]
+    }
+  },
+  "comparisons": {
+    "ppo_50k_minus_latest_s49": {
+      "matched_opening_pairs": 255,
+      "score_delta": 0.04412,
+      "ci95_paired_difference": [
+        -0.00294,
+        0.09118
+      ]
+    },
+    "ppo_75k_minus_latest_s49": {
+      "matched_opening_pairs": 256,
+      "score_delta": 0.04688,
+      "ci95_paired_difference": [
+        -0.00488,
+        0.09768
+      ]
+    },
+    "ppo_100k_minus_latest_s49": {
+      "matched_opening_pairs": 256,
+      "score_delta": 0.06641,
+      "ci95_paired_difference": [
+        0.0166,
+        0.11523
+      ]
+    },
+    "ppo_75k_minus_ppo_50k": {
+      "matched_opening_pairs": 255,
+      "score_delta": 0.00392,
+      "ci95_paired_difference": [
+        -0.04706,
+        0.05196
+      ]
+    },
+    "ppo_100k_minus_ppo_75k": {
+      "matched_opening_pairs": 256,
+      "score_delta": 0.01953,
+      "ci95_paired_difference": [
+        -0.0303,
+        0.06934
+      ]
+    },
+    "ppo_100k_minus_ppo_50k": {
+      "matched_opening_pairs": 255,
+      "score_delta": 0.02157,
+      "ci95_paired_difference": [
+        -0.02745,
+        0.07255
+      ]
+    },
+    "ppo_100k_minus_v0": {
+      "matched_opening_pairs": 256,
+      "score_delta": 0.11523,
+      "ci95_paired_difference": [
+        0.06836,
+        0.16309
+      ]
+    }
+  },
+  "note": "Exploratory comparison; no new confirmatory p-value. Truncated games excluded from game scores and paired comparisons."
+}

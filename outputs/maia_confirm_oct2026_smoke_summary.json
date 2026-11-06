@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "mode": "smoke",
+  "completed": true,
+  "frozen_primary": "latest_s49_minus_v0_vs_maia1900",
+  "matches": {
+    "v0_vs_maia1500": {
+      "wins": 2,
+      "draws": 1,
+      "losses": 1,
+      "truncated": 0,
+      "total_games": 4,
+      "completed_games": 4,
+      "expected_games": 4,
+      "score_completed": 0.625,
+      "complete_pairs": 2,
+      "ci95_paired": null
+    },
+    "v100_vs_maia1500": {
+      "wins": 2,
+      "draws": 0,
+      "losses": 2,
+      "truncated": 0,
+      "total_games": 4,
+      "completed_games": 4,
+      "expected_games": 4,
+      "score_completed": 0.5,
+      "complete_pairs": 2,
+      "ci95_paired": null
+    },
+    "latest_s49_vs_maia1500": {
+      "wins": 0,
+      "draws": 2,
+      "losses": 2,
+      "truncated": 0,
+      "total_games": 4,
+      "completed_games": 4,
+      "expected_games": 4,
+      "score_completed": 0.25,
+      "complete_pairs": 2,
+      "ci95_paired": null
+    }
+  },
+  "comparisons": {
+    "v100_minus_v0_vs_maia1500": {
+      "matched_opening_pairs": 2,
+      "score_delta": -0.125,
+      "ci95_paired_difference": null
+    },
+    "latest_s49_minus_v0_vs_maia1500": {
+      "matched_opening_pairs": 2,
+      "score_delta": -0.375,
+      "ci95_paired_difference": null
+    },
+    "latest_s49_minus_v100_vs_maia1500": {
+      "matched_opening_pairs": 2,
+      "score_delta": -0.25,
+      "ci95_paired_difference": null
+    }
+  },
+  "primary_test": null,
+  "note": "Confirmation is on October human games, unseen as a dataset by the September trainer. This test compares a selected PPO model to frozen V0."
+}

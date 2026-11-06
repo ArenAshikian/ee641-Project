@@ -1,0 +1,82 @@
+{
+  "schema": 1,
+  "pairs_per_matchup": 2,
+  "final": false,
+  "matches": {
+    "v0_vs_maia1100": {
+      "wins": 4,
+      "draws": 0,
+      "losses": 0,
+      "truncated": 0,
+      "total_games": 4,
+      "completed_games": 4,
+      "expected_games": 4,
+      "score_completed": 1.0,
+      "complete_pairs": 2,
+      "ci95_paired": null
+    },
+    "v100_vs_maia1100": {
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "truncated": 0,
+      "total_games": 0,
+      "completed_games": 0,
+      "expected_games": 4,
+      "score_completed": null,
+      "complete_pairs": 0,
+      "ci95_paired": null
+    },
+    "pool_s49_vs_maia1100": {
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "truncated": 0,
+      "total_games": 0,
+      "completed_games": 0,
+      "expected_games": 4,
+      "score_completed": null,
+      "complete_pairs": 0,
+      "ci95_paired": null
+    },
+    "latest_s49_vs_maia1100": {
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "truncated": 0,
+      "total_games": 0,
+      "completed_games": 0,
+      "expected_games": 4,
+      "score_completed": null,
+      "complete_pairs": 0,
+      "ci95_paired": null
+    }
+  },
+  "comparisons": {
+    "v100_minus_v0_vs_maia1100": {
+      "matched_opening_pairs": 0,
+      "score_delta": null,
+      "ci95_paired_difference": null
+    },
+    "pool_s49_minus_v0_vs_maia1100": {
+      "matched_opening_pairs": 0,
+      "score_delta": null,
+      "ci95_paired_difference": null
+    },
+    "latest_s49_minus_v0_vs_maia1100": {
+      "matched_opening_pairs": 0,
+      "score_delta": null,
+      "ci95_paired_difference": null
+    },
+    "pool_s49_minus_v100_vs_maia1100": {
+      "matched_opening_pairs": 0,
+      "score_delta": null,
+      "ci95_paired_difference": null
+    },
+    "latest_s49_minus_v100_vs_maia1100": {
+      "matched_opening_pairs": 0,
+      "score_delta": null,
+      "ci95_paired_difference": null
+    }
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "method": "search-free, paired colors, deterministic argmax",
+  "pairs_per_matchup": 200,
+  "max_plies": 240,
+  "matchups": [
+    {
+      "matchup": "V100_vs_V0",
+      "candidate": 100,
+      "opponent": 0,
+      "expected_games": 400,
+      "played": 400,
+      "wins": 166,
+      "draws": 88,
+      "losses": 146,
+      "truncated": 0,
+      "completed_game_score": 0.525,
+      "fully_completed_pairs": 200,
+      "paired_score": 0.525,
+      "paired_bootstrap_95pct": [
+        0.4875,
+        0.5625
+      ],
+      "termination_reasons": {
+        "CHECKMATE": 312,
+        "STALEMATE": 16,
+        "INSUFFICIENT_MATERIAL": 3,
+        "THREEFOLD_REPETITION": 69
+      }
+    },
+    {
+      "matchup": "V100_vs_V10",
+      "candidate": 100,
+      "opponent": 10,
+      "expected_games": 400,
+      "played": 400,
+      "wins": 173,
+      "draws": 79,
+      "losses": 148,
+      "truncated": 0,
+      "completed_game_score": 0.5312,
+      "fully_completed_pairs": 200,
+      "paired_score": 0.5312,
+      "paired_bootstrap_95pct": [
+        0.4913,
+        0.57
+      ],
+      "termination_reasons": {
+        "CHECKMATE": 321,
+        "THREEFOLD_REPETITION": 60,
+        "STALEMATE": 16,
+        "INSUFFICIENT_MATERIAL": 3
+      }
+    },
+    {
+      "matchup": "V100_vs_V30",
+      "candidate": 100,
+      "opponent": 30,
+      "expected_games": 400,
+      "played": 400,
+      "wins": 155,
+      "draws": 86,
+      "losses": 159,
+      "truncated": 0,
+      "completed_game_score": 0.495,
+      "fully_completed_pairs": 200,
+      "paired_score": 0.495,
+      "paired_bootstrap_95pct": [
+        0.4525,
+        0.535
+      ],
+      "termination_reasons": {
+        "CHECKMATE": 314,
+        "STALEMATE": 22,
+        "THREEFOLD_REPETITION": 61,
+        "INSUFFICIENT_MATERIAL": 3
+      }
+    },
+    {
+      "matchup": "V100_vs_V50",
+      "candidate": 100,
+      "opponent": 50,
+      "expected_games": 400,
+      "played": 400,
+      "wins": 163,
+      "draws": 92,
+      "losses": 145,
+      "truncated": 0,
+      "completed_game_score": 0.5225,
+      "fully_completed_pairs": 200,
+      "paired_score": 0.5225,
+      "paired_bootstrap_95pct": [
+        0.4838,
+        0.56
+      ],
+      "termination_reasons": {
+        "CHECKMATE": 308,
+        "THREEFOLD_REPETITION": 70,
+        "STALEMATE": 16,
+        "INSUFFICIENT_MATERIAL": 6
+      }
+    },
+    {
+      "matchup": "V30_vs_V50",
+      "candidate": 30,
+      "opponent": 50,
+      "expected_games": 400,
+      "played": 400,
+      "wins": 141,
+      "draws": 110,
+      "losses": 149,
+      "truncated": 0,
+      "completed_game_score": 0.49,
+      "fully_completed_pairs": 200,
+      "paired_score": 0.49,
+      "paired_bootstrap_95pct": [
+        0.455,
+        0.525
+      ],
+      "termination_reasons": {
+        "THREEFOLD_REPETITION": 82,
+        "CHECKMATE": 290,
+        "STALEMATE": 25,
+        "INSUFFICIENT_MATERIAL": 3
+      }
+    }
+  ]
+}

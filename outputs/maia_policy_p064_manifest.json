@@ -1,0 +1,34 @@
+{
+  "schema": 2,
+  "maia_search_algorithm": "policyhead",
+  "openings_sha256": "848421525e859b20834b6225b36a7b9fe5004d088a6a34bd2b2a2eee9cbce6e2",
+  "source_kind": "september_v0_validation_game_partition",
+  "pairs": 64,
+  "max_plies": 240,
+  "model_hashes": {
+    "v0": "407ae27f7033f1070da7e8fe45dc9146cf89a1bad4dde60fc2f562accd30593e",
+    "v100": "585589ce794dc36b83caca93202a7592eec5b19634e522efc48405f0f628d700",
+    "pool_s49": "c18974bb90543e351874415e4d896c3e40810a2489ac2c46bc7be1ae2579e7da",
+    "latest_s49": "75bec742766a4c9709211ade12719064bc0eb6405a4931314cd7d2178f04a748"
+  },
+  "maia_weight_hashes": {
+    "1100": "e1cf1cd0c96b8a4fa6a275f4b9fd54ed1ffebf9fe44641b9fceded310e9619c4",
+    "1500": "35ab6f20421d59e1df3b17c5a5016947af4c6761368ef84044a9a9c7619a9a00",
+    "1900": "e2f565f42d7cd9f122557e6dc4eb84e5bbaedceda1d404dc485d3611c7c97a12"
+  },
+  "lc0_executable_hash": "e32164ceb85ab128e6fe5e02d34cf17608d638335ae7d519f82a58c372e9666b",
+  "lc0_executable_name": "lc0-policyhead.exe",
+  "maia_uci_nodes": 1,
+  "our_action_selection": "one_pass_greedy_legal_mask",
+  "candidate_models": [
+    "v0",
+    "v100",
+    "pool_s49",
+    "latest_s49"
+  ],
+  "maia_ratings": [
+    1100,
+    1500,
+    1900
+  ]
+}

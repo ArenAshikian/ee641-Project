@@ -1,0 +1,6 @@
+step,pairs,pool_vs_latest,wins,draws,losses,truncated,fully_completed_pairs,paired_score,paired_95pct_ci,search_used
+10,128,True,88,73,95,0,128,0.4863,"0.4395,0.5332",False
+20,128,True,84,68,104,0,128,0.4609,"0.4141,0.5059",False
+30,128,True,100,71,85,0,128,0.5293,"0.4805,0.5762",False
+40,128,True,99,64,93,0,128,0.5117,"0.4629,0.5605",False
+49,128,True,104,45,107,0,128,0.4941,"0.4414,0.5469",False

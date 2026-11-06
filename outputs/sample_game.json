@@ -1,0 +1,9 @@
+{
+  "seed": 7,
+  "plies": 160,
+  "result": "*",
+  "terminated": false,
+  "truncated": true,
+  "reason": "MAX_PLIES",
+  "timestamp_utc": "2026-11-05T05:03:09.482179+00:00"
+}

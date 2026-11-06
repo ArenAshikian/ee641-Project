@@ -1,0 +1,160 @@
+{
+  "schema": 1,
+  "mode": "eval",
+  "completed": true,
+  "frozen_primary": "latest_s49_minus_v0_vs_maia1900",
+  "matches": {
+    "v0_vs_maia1500": {
+      "wins": 192,
+      "draws": 150,
+      "losses": 170,
+      "truncated": 0,
+      "total_games": 512,
+      "completed_games": 512,
+      "expected_games": 512,
+      "score_completed": 0.52148,
+      "complete_pairs": 256,
+      "ci95_paired": [
+        0.48633,
+        0.55566
+      ]
+    },
+    "v100_vs_maia1500": {
+      "wins": 197,
+      "draws": 156,
+      "losses": 159,
+      "truncated": 0,
+      "total_games": 512,
+      "completed_games": 512,
+      "expected_games": 512,
+      "score_completed": 0.53711,
+      "complete_pairs": 256,
+      "ci95_paired": [
+        0.50195,
+        0.57424
+      ]
+    },
+    "latest_s49_vs_maia1500": {
+      "wins": 208,
+      "draws": 152,
+      "losses": 152,
+      "truncated": 0,
+      "total_games": 512,
+      "completed_games": 512,
+      "expected_games": 512,
+      "score_completed": 0.55469,
+      "complete_pairs": 256,
+      "ci95_paired": [
+        0.51855,
+        0.58887
+      ]
+    },
+    "v0_vs_maia1900": {
+      "wins": 133,
+      "draws": 153,
+      "losses": 226,
+      "truncated": 0,
+      "total_games": 512,
+      "completed_games": 512,
+      "expected_games": 512,
+      "score_completed": 0.40918,
+      "complete_pairs": 256,
+      "ci95_paired": [
+        0.375,
+        0.44241
+      ]
+    },
+    "v100_vs_maia1900": {
+      "wins": 152,
+      "draws": 158,
+      "losses": 202,
+      "truncated": 0,
+      "total_games": 512,
+      "completed_games": 512,
+      "expected_games": 512,
+      "score_completed": 0.45117,
+      "complete_pairs": 256,
+      "ci95_paired": [
+        0.41602,
+        0.48828
+      ]
+    },
+    "latest_s49_vs_maia1900": {
+      "wins": 166,
+      "draws": 137,
+      "losses": 209,
+      "truncated": 0,
+      "total_games": 512,
+      "completed_games": 512,
+      "expected_games": 512,
+      "score_completed": 0.45801,
+      "complete_pairs": 256,
+      "ci95_paired": [
+        0.4209,
+        0.49414
+      ]
+    }
+  },
+  "comparisons": {
+    "v100_minus_v0_vs_maia1500": {
+      "matched_opening_pairs": 256,
+      "score_delta": 0.01562,
+      "ci95_paired_difference": [
+        -0.03223,
+        0.06448
+      ]
+    },
+    "latest_s49_minus_v0_vs_maia1500": {
+      "matched_opening_pairs": 256,
+      "score_delta": 0.0332,
+      "ci95_paired_difference": [
+        -0.01953,
+        0.08008
+      ]
+    },
+    "v100_minus_v0_vs_maia1900": {
+      "matched_opening_pairs": 256,
+      "score_delta": 0.04199,
+      "ci95_paired_difference": [
+        -0.00488,
+        0.09084
+      ]
+    },
+    "latest_s49_minus_v0_vs_maia1900": {
+      "matched_opening_pairs": 256,
+      "score_delta": 0.04883,
+      "ci95_paired_difference": [
+        0.00098,
+        0.09766
+      ]
+    },
+    "latest_s49_minus_v100_vs_maia1500": {
+      "matched_opening_pairs": 256,
+      "score_delta": 0.01758,
+      "ci95_paired_difference": [
+        -0.02834,
+        0.06348
+      ]
+    },
+    "latest_s49_minus_v100_vs_maia1900": {
+      "matched_opening_pairs": 256,
+      "score_delta": 0.00684,
+      "ci95_paired_difference": [
+        -0.04199,
+        0.05471
+      ]
+    }
+  },
+  "primary_test": {
+    "matched_pairs": 256,
+    "score_difference": 0.04883,
+    "ci95": [
+      0.00098,
+      0.0957
+    ],
+    "p_two_sided": 0.049298,
+    "bootstrap_draws": 20000,
+    "note": "Pre-specified Latest S49 vs V0 against Maia 1900; paired colors/openings."
+  },
+  "note": "Confirmation is on October human games, unseen as a dataset by the September trainer. This test compares a selected PPO model to frozen V0."
+}

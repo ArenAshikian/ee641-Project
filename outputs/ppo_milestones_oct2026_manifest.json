@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "mode": "eval",
+  "purpose": "exploratory post-hoc 50k/75k/100k learning curve",
+  "opening_manifest_sha256": "ae5c9ffd3da8900963b57e624f5a4b30e126cc2807438a329c836779df7952ef",
+  "maia_1900_weights_sha256": "e2f565f42d7cd9f122557e6dc4eb84e5bbaedceda1d404dc485d3611c7c97a12",
+  "lc0_sha256": "e32164ceb85ab128e6fe5e02d34cf17608d638335ae7d519f82a58c372e9666b",
+  "max_plies": 240,
+  "maia_algorithm": "policyhead",
+  "our_policy": "single_forward_pass_greedy_legal_mask",
+  "pairs": 256,
+  "indices": [
+    0,
+    256
+  ],
+  "checkpoint_sha256": {
+    "v0": "407ae27f7033f1070da7e8fe45dc9146cf89a1bad4dde60fc2f562accd30593e",
+    "latest_s49": "75bec742766a4c9709211ade12719064bc0eb6405a4931314cd7d2178f04a748",
+    "ppo_50k": "ab34c4011d8fca231116e62273416a5c99f79beb91e601983ddf07b8058ff738",
+    "ppo_75k": "02a8b6d506f76a0a172d964c6c3641efef3e5bfa07d849fc405742752643e4cc",
+    "ppo_100k": "72b4fcb6efdda3ae065859642c73f075b02744821764dc482f04954a55a0f5a9"
+  },
+  "reference_source": "October confirm (read only)",
+  "statistical_note": "Exploratory; repeated testing on previously used October openings."
+}

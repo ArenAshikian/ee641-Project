@@ -1,0 +1,5 @@
+condition,games_saved,expected_games,wins,draws,losses,truncated,game_score,paired_openings,paired_score,ci95_low,ci95_high
+v0_greedy,400,400,159,82,159,0,0.5,200,0.5,0.5,0.5
+v100_greedy,400,400,147,100,153,0,0.4925,200,0.4925,0.455,0.5312
+v0_sampled,400,400,51,58,291,0,0.2,200,0.2,0.1675,0.235
+v100_sampled,400,400,110,84,205,1,0.381,199,0.3794,0.3392,0.4196

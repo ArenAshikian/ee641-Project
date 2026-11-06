@@ -1,0 +1,5 @@
+model,maia,wins,draws,losses,truncated,total_games,completed_games,expected_games,score_completed,complete_pairs,ci95_paired
+v0,1100,4,0,0,0,4,4,4,1.0,2,
+v100,1100,3,1,0,0,4,4,4,0.875,2,
+pool_s49,1100,3,0,1,0,4,4,4,0.75,2,
+latest_s49,1100,3,1,0,0,4,4,4,0.875,2,

@@ -1,0 +1,69 @@
+{
+  "branch": "latest",
+  "step": 49,
+  "cumulative_games": 25088,
+  "pairs": 128,
+  "search_used": false,
+  "opponents": {
+    "v0": {
+      "played": 256,
+      "expected": 256,
+      "wins": 106,
+      "draws": 69,
+      "losses": 81,
+      "truncated": 0,
+      "score": 0.5488,
+      "paired_score": 0.5488,
+      "paired_pairs": 128,
+      "paired_95pct_ci": [
+        0.498,
+        0.5977
+      ]
+    },
+    "v30": {
+      "played": 256,
+      "expected": 256,
+      "wins": 100,
+      "draws": 70,
+      "losses": 86,
+      "truncated": 0,
+      "score": 0.5273,
+      "paired_score": 0.5273,
+      "paired_pairs": 128,
+      "paired_95pct_ci": [
+        0.4824,
+        0.5742
+      ]
+    },
+    "v100": {
+      "played": 256,
+      "expected": 256,
+      "wins": 103,
+      "draws": 75,
+      "losses": 78,
+      "truncated": 0,
+      "score": 0.5488,
+      "paired_score": 0.5488,
+      "paired_pairs": 128,
+      "paired_95pct_ci": [
+        0.5,
+        0.5996
+      ]
+    },
+    "supervised_1m": {
+      "played": 256,
+      "expected": 256,
+      "wins": 231,
+      "draws": 23,
+      "losses": 2,
+      "truncated": 0,
+      "score": 0.9473,
+      "paired_score": 0.9473,
+      "paired_pairs": 128,
+      "paired_95pct_ci": [
+        0.9258,
+        0.9668
+      ]
+    }
+  }
+}

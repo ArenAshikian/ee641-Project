@@ -1,0 +1,80 @@
+{
+  "version": 70,
+  "checkpoint": "ppo_v0070.pt",
+  "checkpoint_sha256": "8e3e611601ad46f02bcc53734b2996a2b90642aad6f68b2f01ce4a956796d891",
+  "eval_seed": 42021,
+  "opening_pairs": 50,
+  "games_per_opponent": 100,
+  "max_plies": 240,
+  "search_used": false,
+  "opponents": {
+    "v0": {
+      "wins": 36,
+      "draws": 24,
+      "losses": 40,
+      "truncated": 0,
+      "games": 100,
+      "score_on_completed_games": 0.48,
+      "paired_bootstrap_95pct_score_interval": [
+        0.4,
+        0.555
+      ],
+      "termination_reasons": {
+        "THREEFOLD_REPETITION": 15,
+        "CHECKMATE": 76,
+        "STALEMATE": 8,
+        "INSUFFICIENT_MATERIAL": 1
+      }
+    },
+    "v10": {
+      "wins": 39,
+      "draws": 22,
+      "losses": 39,
+      "truncated": 0,
+      "games": 100,
+      "score_on_completed_games": 0.5,
+      "paired_bootstrap_95pct_score_interval": [
+        0.42,
+        0.575
+      ],
+      "termination_reasons": {
+        "CHECKMATE": 78,
+        "THREEFOLD_REPETITION": 16,
+        "STALEMATE": 6
+      }
+    },
+    "random_legal": {
+      "wins": 96,
+      "draws": 4,
+      "losses": 0,
+      "truncated": 0,
+      "games": 100,
+      "score_on_completed_games": 0.98,
+      "paired_bootstrap_95pct_score_interval": [
+        0.96,
+        0.995
+      ],
+      "termination_reasons": {
+        "CHECKMATE": 96,
+        "THREEFOLD_REPETITION": 4
+      }
+    },
+    "supervised_1m": {
+      "wins": 86,
+      "draws": 14,
+      "losses": 0,
+      "truncated": 0,
+      "games": 100,
+      "score_on_completed_games": 0.93,
+      "paired_bootstrap_95pct_score_interval": [
+        0.89,
+        0.9601
+      ],
+      "termination_reasons": {
+        "CHECKMATE": 86,
+        "THREEFOLD_REPETITION": 13,
+        "STALEMATE": 1
+      }
+    }
+  }
+}

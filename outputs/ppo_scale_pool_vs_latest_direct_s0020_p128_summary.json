@@ -1,0 +1,16 @@
+{
+  "step": 20,
+  "pairs": 128,
+  "pool_vs_latest": true,
+  "wins": 84,
+  "draws": 68,
+  "losses": 104,
+  "truncated": 0,
+  "fully_completed_pairs": 128,
+  "paired_score": 0.4609,
+  "paired_95pct_ci": [
+    0.4141,
+    0.5059
+  ],
+  "search_used": false
+}

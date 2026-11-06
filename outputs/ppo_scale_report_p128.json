@@ -1,0 +1,811 @@
+{
+  "hypothesis": "Does a historical checkpoint opponent pool reduce cycling?",
+  "comparison": "Pool minus latest-only, matched color and human opening",
+  "checkpoint_scores": [
+    {
+      "branch": "pool",
+      "step": 10,
+      "cumulative_games": 5120,
+      "opponent": "v0",
+      "wins": 105,
+      "draws": 75,
+      "losses": 76,
+      "truncated": 0,
+      "score": 0.5566,
+      "ci_low": 0.5039,
+      "ci_high": 0.6074
+    },
+    {
+      "branch": "pool",
+      "step": 10,
+      "cumulative_games": 5120,
+      "opponent": "v30",
+      "wins": 107,
+      "draws": 68,
+      "losses": 81,
+      "truncated": 0,
+      "score": 0.5508,
+      "ci_low": 0.5,
+      "ci_high": 0.5977
+    },
+    {
+      "branch": "pool",
+      "step": 10,
+      "cumulative_games": 5120,
+      "opponent": "v100",
+      "wins": 91,
+      "draws": 60,
+      "losses": 105,
+      "truncated": 0,
+      "score": 0.4727,
+      "ci_low": 0.4238,
+      "ci_high": 0.5215
+    },
+    {
+      "branch": "pool",
+      "step": 10,
+      "cumulative_games": 5120,
+      "opponent": "supervised_1m",
+      "wins": 228,
+      "draws": 27,
+      "losses": 1,
+      "truncated": 0,
+      "score": 0.9434,
+      "ci_low": 0.9219,
+      "ci_high": 0.9629
+    },
+    {
+      "branch": "pool",
+      "step": 20,
+      "cumulative_games": 10240,
+      "opponent": "v0",
+      "wins": 103,
+      "draws": 83,
+      "losses": 70,
+      "truncated": 0,
+      "score": 0.5645,
+      "ci_low": 0.5254,
+      "ci_high": 0.6055
+    },
+    {
+      "branch": "pool",
+      "step": 20,
+      "cumulative_games": 10240,
+      "opponent": "v30",
+      "wins": 91,
+      "draws": 78,
+      "losses": 87,
+      "truncated": 0,
+      "score": 0.5078,
+      "ci_low": 0.459,
+      "ci_high": 0.5605
+    },
+    {
+      "branch": "pool",
+      "step": 20,
+      "cumulative_games": 10240,
+      "opponent": "v100",
+      "wins": 108,
+      "draws": 62,
+      "losses": 86,
+      "truncated": 0,
+      "score": 0.543,
+      "ci_low": 0.4922,
+      "ci_high": 0.5918
+    },
+    {
+      "branch": "pool",
+      "step": 20,
+      "cumulative_games": 10240,
+      "opponent": "supervised_1m",
+      "wins": 234,
+      "draws": 21,
+      "losses": 1,
+      "truncated": 0,
+      "score": 0.9551,
+      "ci_low": 0.9375,
+      "ci_high": 0.9727
+    },
+    {
+      "branch": "pool",
+      "step": 30,
+      "cumulative_games": 15360,
+      "opponent": "v0",
+      "wins": 110,
+      "draws": 69,
+      "losses": 77,
+      "truncated": 0,
+      "score": 0.5645,
+      "ci_low": 0.5137,
+      "ci_high": 0.6133
+    },
+    {
+      "branch": "pool",
+      "step": 30,
+      "cumulative_games": 15360,
+      "opponent": "v30",
+      "wins": 89,
+      "draws": 80,
+      "losses": 87,
+      "truncated": 0,
+      "score": 0.5039,
+      "ci_low": 0.457,
+      "ci_high": 0.5547
+    },
+    {
+      "branch": "pool",
+      "step": 30,
+      "cumulative_games": 15360,
+      "opponent": "v100",
+      "wins": 102,
+      "draws": 70,
+      "losses": 84,
+      "truncated": 0,
+      "score": 0.5352,
+      "ci_low": 0.4883,
+      "ci_high": 0.582
+    },
+    {
+      "branch": "pool",
+      "step": 30,
+      "cumulative_games": 15360,
+      "opponent": "supervised_1m",
+      "wins": 230,
+      "draws": 23,
+      "losses": 3,
+      "truncated": 0,
+      "score": 0.9434,
+      "ci_low": 0.9199,
+      "ci_high": 0.9629
+    },
+    {
+      "branch": "pool",
+      "step": 40,
+      "cumulative_games": 20480,
+      "opponent": "v0",
+      "wins": 114,
+      "draws": 61,
+      "losses": 81,
+      "truncated": 0,
+      "score": 0.5645,
+      "ci_low": 0.5078,
+      "ci_high": 0.6211
+    },
+    {
+      "branch": "pool",
+      "step": 40,
+      "cumulative_games": 20480,
+      "opponent": "v30",
+      "wins": 85,
+      "draws": 76,
+      "losses": 95,
+      "truncated": 0,
+      "score": 0.4805,
+      "ci_low": 0.4336,
+      "ci_high": 0.5273
+    },
+    {
+      "branch": "pool",
+      "step": 40,
+      "cumulative_games": 20480,
+      "opponent": "v100",
+      "wins": 96,
+      "draws": 75,
+      "losses": 85,
+      "truncated": 0,
+      "score": 0.5215,
+      "ci_low": 0.4688,
+      "ci_high": 0.5723
+    },
+    {
+      "branch": "pool",
+      "step": 40,
+      "cumulative_games": 20480,
+      "opponent": "supervised_1m",
+      "wins": 233,
+      "draws": 23,
+      "losses": 0,
+      "truncated": 0,
+      "score": 0.9551,
+      "ci_low": 0.9355,
+      "ci_high": 0.9727
+    },
+    {
+      "branch": "pool",
+      "step": 49,
+      "cumulative_games": 25088,
+      "opponent": "v0",
+      "wins": 111,
+      "draws": 76,
+      "losses": 69,
+      "truncated": 0,
+      "score": 0.582,
+      "ci_low": 0.5312,
+      "ci_high": 0.6328
+    },
+    {
+      "branch": "pool",
+      "step": 49,
+      "cumulative_games": 25088,
+      "opponent": "v30",
+      "wins": 93,
+      "draws": 82,
+      "losses": 81,
+      "truncated": 0,
+      "score": 0.5234,
+      "ci_low": 0.4746,
+      "ci_high": 0.5704
+    },
+    {
+      "branch": "pool",
+      "step": 49,
+      "cumulative_games": 25088,
+      "opponent": "v100",
+      "wins": 96,
+      "draws": 73,
+      "losses": 87,
+      "truncated": 0,
+      "score": 0.5176,
+      "ci_low": 0.4688,
+      "ci_high": 0.5664
+    },
+    {
+      "branch": "pool",
+      "step": 49,
+      "cumulative_games": 25088,
+      "opponent": "supervised_1m",
+      "wins": 231,
+      "draws": 25,
+      "losses": 0,
+      "truncated": 0,
+      "score": 0.9512,
+      "ci_low": 0.9336,
+      "ci_high": 0.9668
+    },
+    {
+      "branch": "latest",
+      "step": 10,
+      "cumulative_games": 5120,
+      "opponent": "v0",
+      "wins": 103,
+      "draws": 63,
+      "losses": 90,
+      "truncated": 0,
+      "score": 0.5254,
+      "ci_low": 0.4707,
+      "ci_high": 0.5781
+    },
+    {
+      "branch": "latest",
+      "step": 10,
+      "cumulative_games": 5120,
+      "opponent": "v30",
+      "wins": 105,
+      "draws": 78,
+      "losses": 73,
+      "truncated": 0,
+      "score": 0.5625,
+      "ci_low": 0.5137,
+      "ci_high": 0.6133
+    },
+    {
+      "branch": "latest",
+      "step": 10,
+      "cumulative_games": 5120,
+      "opponent": "v100",
+      "wins": 90,
+      "draws": 69,
+      "losses": 97,
+      "truncated": 0,
+      "score": 0.4863,
+      "ci_low": 0.4414,
+      "ci_high": 0.5332
+    },
+    {
+      "branch": "latest",
+      "step": 10,
+      "cumulative_games": 5120,
+      "opponent": "supervised_1m",
+      "wins": 218,
+      "draws": 36,
+      "losses": 2,
+      "truncated": 0,
+      "score": 0.9219,
+      "ci_low": 0.8984,
+      "ci_high": 0.9434
+    },
+    {
+      "branch": "latest",
+      "step": 20,
+      "cumulative_games": 10240,
+      "opponent": "v0",
+      "wins": 97,
+      "draws": 61,
+      "losses": 98,
+      "truncated": 0,
+      "score": 0.498,
+      "ci_low": 0.4414,
+      "ci_high": 0.5547
+    },
+    {
+      "branch": "latest",
+      "step": 20,
+      "cumulative_games": 10240,
+      "opponent": "v30",
+      "wins": 104,
+      "draws": 75,
+      "losses": 77,
+      "truncated": 0,
+      "score": 0.5527,
+      "ci_low": 0.5039,
+      "ci_high": 0.6016
+    },
+    {
+      "branch": "latest",
+      "step": 20,
+      "cumulative_games": 10240,
+      "opponent": "v100",
+      "wins": 101,
+      "draws": 67,
+      "losses": 88,
+      "truncated": 0,
+      "score": 0.5254,
+      "ci_low": 0.4785,
+      "ci_high": 0.5703
+    },
+    {
+      "branch": "latest",
+      "step": 20,
+      "cumulative_games": 10240,
+      "opponent": "supervised_1m",
+      "wins": 226,
+      "draws": 29,
+      "losses": 1,
+      "truncated": 0,
+      "score": 0.9395,
+      "ci_low": 0.918,
+      "ci_high": 0.959
+    },
+    {
+      "branch": "latest",
+      "step": 30,
+      "cumulative_games": 15360,
+      "opponent": "v0",
+      "wins": 100,
+      "draws": 67,
+      "losses": 89,
+      "truncated": 0,
+      "score": 0.5215,
+      "ci_low": 0.4668,
+      "ci_high": 0.5781
+    },
+    {
+      "branch": "latest",
+      "step": 30,
+      "cumulative_games": 15360,
+      "opponent": "v30",
+      "wins": 116,
+      "draws": 68,
+      "losses": 72,
+      "truncated": 0,
+      "score": 0.5859,
+      "ci_low": 0.541,
+      "ci_high": 0.6328
+    },
+    {
+      "branch": "latest",
+      "step": 30,
+      "cumulative_games": 15360,
+      "opponent": "v100",
+      "wins": 109,
+      "draws": 58,
+      "losses": 89,
+      "truncated": 0,
+      "score": 0.5391,
+      "ci_low": 0.4824,
+      "ci_high": 0.5938
+    },
+    {
+      "branch": "latest",
+      "step": 30,
+      "cumulative_games": 15360,
+      "opponent": "supervised_1m",
+      "wins": 235,
+      "draws": 19,
+      "losses": 2,
+      "truncated": 0,
+      "score": 0.9551,
+      "ci_low": 0.9336,
+      "ci_high": 0.9727
+    },
+    {
+      "branch": "latest",
+      "step": 40,
+      "cumulative_games": 20480,
+      "opponent": "v0",
+      "wins": 110,
+      "draws": 58,
+      "losses": 88,
+      "truncated": 0,
+      "score": 0.543,
+      "ci_low": 0.4902,
+      "ci_high": 0.5938
+    },
+    {
+      "branch": "latest",
+      "step": 40,
+      "cumulative_games": 20480,
+      "opponent": "v30",
+      "wins": 90,
+      "draws": 80,
+      "losses": 86,
+      "truncated": 0,
+      "score": 0.5078,
+      "ci_low": 0.4609,
+      "ci_high": 0.5528
+    },
+    {
+      "branch": "latest",
+      "step": 40,
+      "cumulative_games": 20480,
+      "opponent": "v100",
+      "wins": 106,
+      "draws": 64,
+      "losses": 86,
+      "truncated": 0,
+      "score": 0.5391,
+      "ci_low": 0.4883,
+      "ci_high": 0.5879
+    },
+    {
+      "branch": "latest",
+      "step": 40,
+      "cumulative_games": 20480,
+      "opponent": "supervised_1m",
+      "wins": 237,
+      "draws": 19,
+      "losses": 0,
+      "truncated": 0,
+      "score": 0.9629,
+      "ci_low": 0.9473,
+      "ci_high": 0.9766
+    },
+    {
+      "branch": "latest",
+      "step": 49,
+      "cumulative_games": 25088,
+      "opponent": "v0",
+      "wins": 106,
+      "draws": 69,
+      "losses": 81,
+      "truncated": 0,
+      "score": 0.5488,
+      "ci_low": 0.498,
+      "ci_high": 0.5977
+    },
+    {
+      "branch": "latest",
+      "step": 49,
+      "cumulative_games": 25088,
+      "opponent": "v30",
+      "wins": 100,
+      "draws": 70,
+      "losses": 86,
+      "truncated": 0,
+      "score": 0.5273,
+      "ci_low": 0.4824,
+      "ci_high": 0.5742
+    },
+    {
+      "branch": "latest",
+      "step": 49,
+      "cumulative_games": 25088,
+      "opponent": "v100",
+      "wins": 103,
+      "draws": 75,
+      "losses": 78,
+      "truncated": 0,
+      "score": 0.5488,
+      "ci_low": 0.5,
+      "ci_high": 0.5996
+    },
+    {
+      "branch": "latest",
+      "step": 49,
+      "cumulative_games": 25088,
+      "opponent": "supervised_1m",
+      "wins": 231,
+      "draws": 23,
+      "losses": 2,
+      "truncated": 0,
+      "score": 0.9473,
+      "ci_low": 0.9258,
+      "ci_high": 0.9668
+    }
+  ],
+  "paired_branch_differences": [
+    {
+      "step": 10,
+      "opponent": "v0",
+      "pairs": 128,
+      "delta": 0.0312,
+      "paired_95pct_ci": [
+        -0.0312,
+        0.0957
+      ]
+    },
+    {
+      "step": 10,
+      "opponent": "v30",
+      "pairs": 128,
+      "delta": -0.0117,
+      "paired_95pct_ci": [
+        -0.082,
+        0.0547
+      ]
+    },
+    {
+      "step": 10,
+      "opponent": "v100",
+      "pairs": 128,
+      "delta": -0.0137,
+      "paired_95pct_ci": [
+        -0.0801,
+        0.0527
+      ]
+    },
+    {
+      "step": 10,
+      "opponent": "supervised_1m",
+      "pairs": 128,
+      "delta": 0.0215,
+      "paired_95pct_ci": [
+        -0.0059,
+        0.0488
+      ]
+    },
+    {
+      "step": 20,
+      "opponent": "v0",
+      "pairs": 128,
+      "delta": 0.0664,
+      "paired_95pct_ci": [
+        0.0,
+        0.1309
+      ]
+    },
+    {
+      "step": 20,
+      "opponent": "v30",
+      "pairs": 128,
+      "delta": -0.0449,
+      "paired_95pct_ci": [
+        -0.1074,
+        0.0176
+      ]
+    },
+    {
+      "step": 20,
+      "opponent": "v100",
+      "pairs": 128,
+      "delta": 0.0176,
+      "paired_95pct_ci": [
+        -0.0469,
+        0.0801
+      ]
+    },
+    {
+      "step": 20,
+      "opponent": "supervised_1m",
+      "pairs": 128,
+      "delta": 0.0156,
+      "paired_95pct_ci": [
+        -0.0117,
+        0.0449
+      ]
+    },
+    {
+      "step": 30,
+      "opponent": "v0",
+      "pairs": 128,
+      "delta": 0.043,
+      "paired_95pct_ci": [
+        -0.0273,
+        0.1113
+      ]
+    },
+    {
+      "step": 30,
+      "opponent": "v30",
+      "pairs": 128,
+      "delta": -0.082,
+      "paired_95pct_ci": [
+        -0.1465,
+        -0.0176
+      ]
+    },
+    {
+      "step": 30,
+      "opponent": "v100",
+      "pairs": 128,
+      "delta": -0.0039,
+      "paired_95pct_ci": [
+        -0.0762,
+        0.0645
+      ]
+    },
+    {
+      "step": 30,
+      "opponent": "supervised_1m",
+      "pairs": 128,
+      "delta": -0.0117,
+      "paired_95pct_ci": [
+        -0.0391,
+        0.0156
+      ]
+    },
+    {
+      "step": 40,
+      "opponent": "v0",
+      "pairs": 128,
+      "delta": 0.0215,
+      "paired_95pct_ci": [
+        -0.0508,
+        0.0957
+      ]
+    },
+    {
+      "step": 40,
+      "opponent": "v30",
+      "pairs": 128,
+      "delta": -0.0273,
+      "paired_95pct_ci": [
+        -0.0938,
+        0.0391
+      ]
+    },
+    {
+      "step": 40,
+      "opponent": "v100",
+      "pairs": 128,
+      "delta": -0.0176,
+      "paired_95pct_ci": [
+        -0.0918,
+        0.0566
+      ]
+    },
+    {
+      "step": 40,
+      "opponent": "supervised_1m",
+      "pairs": 128,
+      "delta": -0.0078,
+      "paired_95pct_ci": [
+        -0.0312,
+        0.0176
+      ]
+    },
+    {
+      "step": 49,
+      "opponent": "v0",
+      "pairs": 128,
+      "delta": 0.0332,
+      "paired_95pct_ci": [
+        -0.043,
+        0.1094
+      ]
+    },
+    {
+      "step": 49,
+      "opponent": "v30",
+      "pairs": 128,
+      "delta": -0.0039,
+      "paired_95pct_ci": [
+        -0.0703,
+        0.0586
+      ]
+    },
+    {
+      "step": 49,
+      "opponent": "v100",
+      "pairs": 128,
+      "delta": -0.0312,
+      "paired_95pct_ci": [
+        -0.0996,
+        0.0391
+      ]
+    },
+    {
+      "step": 49,
+      "opponent": "supervised_1m",
+      "pairs": 128,
+      "delta": 0.0039,
+      "paired_95pct_ci": [
+        -0.0215,
+        0.0293
+      ]
+    }
+  ],
+  "direct_pool_vs_latest_matches": [
+    {
+      "step": 10,
+      "pairs": 128,
+      "pool_vs_latest": true,
+      "wins": 88,
+      "draws": 73,
+      "losses": 95,
+      "truncated": 0,
+      "fully_completed_pairs": 128,
+      "paired_score": 0.4863,
+      "paired_95pct_ci": [
+        0.4395,
+        0.5332
+      ],
+      "search_used": false
+    },
+    {
+      "step": 20,
+      "pairs": 128,
+      "pool_vs_latest": true,
+      "wins": 84,
+      "draws": 68,
+      "losses": 104,
+      "truncated": 0,
+      "fully_completed_pairs": 128,
+      "paired_score": 0.4609,
+      "paired_95pct_ci": [
+        0.4141,
+        0.5059
+      ],
+      "search_used": false
+    },
+    {
+      "step": 30,
+      "pairs": 128,
+      "pool_vs_latest": true,
+      "wins": 100,
+      "draws": 71,
+      "losses": 85,
+      "truncated": 0,
+      "fully_completed_pairs": 128,
+      "paired_score": 0.5293,
+      "paired_95pct_ci": [
+        0.4805,
+        0.5762
+      ],
+      "search_used": false
+    },
+    {
+      "step": 40,
+      "pairs": 128,
+      "pool_vs_latest": true,
+      "wins": 99,
+      "draws": 64,
+      "losses": 93,
+      "truncated": 0,
+      "fully_completed_pairs": 128,
+      "paired_score": 0.5117,
+      "paired_95pct_ci": [
+        0.4629,
+        0.5605
+      ],
+      "search_used": false
+    },
+    {
+      "step": 49,
+      "pairs": 128,
+      "pool_vs_latest": true,
+      "wins": 104,
+      "draws": 45,
+      "losses": 107,
+      "truncated": 0,
+      "fully_completed_pairs": 128,
+      "paired_score": 0.4941,
+      "paired_95pct_ci": [
+        0.4414,
+        0.5469
+      ],
+      "search_used": false
+    }
+  ],
+  "caution": "Held-out V0-validation games are a development evaluation set. Test a final selected model against truly independent new PGN games or an external policy; multiple seeds improve reliability."
+}

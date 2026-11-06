@@ -1,0 +1,40 @@
+{
+  "v0_supervised": {
+    "wins": 17,
+    "draws": 6,
+    "losses": 17,
+    "truncated": 0,
+    "score_completed": 0.5,
+    "termination_reasons": {
+      "STALEMATE": 4,
+      "CHECKMATE": 34,
+      "THREEFOLD_REPETITION": 2
+    },
+    "games": 40
+  },
+  "random_legal": {
+    "wins": 39,
+    "draws": 1,
+    "losses": 0,
+    "truncated": 0,
+    "score_completed": 0.9875,
+    "termination_reasons": {
+      "CHECKMATE": 39,
+      "THREEFOLD_REPETITION": 1
+    },
+    "games": 40
+  },
+  "supervised_1m": {
+    "wins": 30,
+    "draws": 10,
+    "losses": 0,
+    "truncated": 0,
+    "score_completed": 0.875,
+    "termination_reasons": {
+      "CHECKMATE": 30,
+      "STALEMATE": 1,
+      "THREEFOLD_REPETITION": 9
+    },
+    "games": 40
+  }
+}

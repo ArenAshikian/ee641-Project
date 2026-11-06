@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "experiment": "maia_confirm_oct2026",
+  "evaluation_mode": "smoke",
+  "pre_registered_primary": "latest_s49_minus_v0_vs_maia1900",
+  "primary_is_two_sided": true,
+  "october_openings_sha256": "ae5c9ffd3da8900963b57e624f5a4b30e126cc2807438a329c836779df7952ef",
+  "paired_openings": 2,
+  "models": {
+    "v0": "407ae27f7033f1070da7e8fe45dc9146cf89a1bad4dde60fc2f562accd30593e",
+    "v100": "585589ce794dc36b83caca93202a7592eec5b19634e522efc48405f0f628d700",
+    "latest_s49": "75bec742766a4c9709211ade12719064bc0eb6405a4931314cd7d2178f04a748"
+  },
+  "maia_weights": {
+    "1500": "35ab6f20421d59e1df3b17c5a5016947af4c6761368ef84044a9a9c7619a9a00"
+  },
+  "lc0_sha256": "e32164ceb85ab128e6fe5e02d34cf17608d638335ae7d519f82a58c372e9666b",
+  "engine_algorithm": "policyhead",
+  "engine_nodes_command": 1,
+  "policy": "single_forward_pass_greedy_legal_mask",
+  "max_plies": 240
+}

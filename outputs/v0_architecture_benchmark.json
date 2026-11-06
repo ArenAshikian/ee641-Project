@@ -1,0 +1,35 @@
+{
+  "created_utc": "2026-11-05T09:49:17.064705+00:00",
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "torch_version": "2.11.0+cu130",
+  "data_folder": "B:\\EE641_Chess_RL_Starter\\data\\processed\\supervised_1000000_balanced",
+  "data_kind": "real saved Lichess training positions, 4 cached batches",
+  "test_description": "Forward, loss, backward, optimizer step; float32, AdamW; identical batches for both models.",
+  "limitations": "Batches are cached on GPU. Excludes PGN extraction, shard loading, validation, and game generation. Speed is not a PPO throughput estimate.",
+  "architectures": [
+    {
+      "blocks": 6,
+      "channels": 96,
+      "batch_size": 128,
+      "timed_steps": 32,
+      "warmup_steps": 6,
+      "seconds": 0.236,
+      "positions_per_second": 17325.6,
+      "peak_gpu_allocated_gib": 0.133,
+      "last_training_loss": 0.12701,
+      "parameter_count": 1190490
+    },
+    {
+      "blocks": 10,
+      "channels": 128,
+      "batch_size": 128,
+      "timed_steps": 32,
+      "warmup_steps": 6,
+      "seconds": 0.361,
+      "positions_per_second": 11355.8,
+      "peak_gpu_allocated_gib": 0.246,
+      "last_training_loss": 0.10703,
+      "parameter_count": 3167578
+    }
+  ]
+}

@@ -1,0 +1,309 @@
+{
+  "schema": 1,
+  "pairs_per_matchup": 64,
+  "final": true,
+  "matches": {
+    "v0_vs_maia1100": {
+      "wins": 68,
+      "draws": 30,
+      "losses": 30,
+      "truncated": 0,
+      "total_games": 128,
+      "completed_games": 128,
+      "expected_games": 128,
+      "score_completed": 0.64844,
+      "complete_pairs": 64,
+      "ci95_paired": [
+        0.57422,
+        0.71875
+      ]
+    },
+    "v100_vs_maia1100": {
+      "wins": 74,
+      "draws": 33,
+      "losses": 21,
+      "truncated": 0,
+      "total_games": 128,
+      "completed_games": 128,
+      "expected_games": 128,
+      "score_completed": 0.70703,
+      "complete_pairs": 64,
+      "ci95_paired": [
+        0.64062,
+        0.76562
+      ]
+    },
+    "pool_s49_vs_maia1100": {
+      "wins": 78,
+      "draws": 22,
+      "losses": 28,
+      "truncated": 0,
+      "total_games": 128,
+      "completed_games": 128,
+      "expected_games": 128,
+      "score_completed": 0.69531,
+      "complete_pairs": 64,
+      "ci95_paired": [
+        0.625,
+        0.76182
+      ]
+    },
+    "latest_s49_vs_maia1100": {
+      "wins": 73,
+      "draws": 35,
+      "losses": 20,
+      "truncated": 0,
+      "total_games": 128,
+      "completed_games": 128,
+      "expected_games": 128,
+      "score_completed": 0.70703,
+      "complete_pairs": 64,
+      "ci95_paired": [
+        0.64443,
+        0.76562
+      ]
+    },
+    "v0_vs_maia1500": {
+      "wins": 49,
+      "draws": 45,
+      "losses": 34,
+      "truncated": 0,
+      "total_games": 128,
+      "completed_games": 128,
+      "expected_games": 128,
+      "score_completed": 0.55859,
+      "complete_pairs": 64,
+      "ci95_paired": [
+        0.48438,
+        0.62891
+      ]
+    },
+    "v100_vs_maia1500": {
+      "wins": 52,
+      "draws": 31,
+      "losses": 45,
+      "truncated": 0,
+      "total_games": 128,
+      "completed_games": 128,
+      "expected_games": 128,
+      "score_completed": 0.52734,
+      "complete_pairs": 64,
+      "ci95_paired": [
+        0.46094,
+        0.59375
+      ]
+    },
+    "pool_s49_vs_maia1500": {
+      "wins": 53,
+      "draws": 34,
+      "losses": 41,
+      "truncated": 0,
+      "total_games": 128,
+      "completed_games": 128,
+      "expected_games": 128,
+      "score_completed": 0.54688,
+      "complete_pairs": 64,
+      "ci95_paired": [
+        0.46875,
+        0.62109
+      ]
+    },
+    "latest_s49_vs_maia1500": {
+      "wins": 48,
+      "draws": 30,
+      "losses": 50,
+      "truncated": 0,
+      "total_games": 128,
+      "completed_games": 128,
+      "expected_games": 128,
+      "score_completed": 0.49219,
+      "complete_pairs": 64,
+      "ci95_paired": [
+        0.41406,
+        0.56641
+      ]
+    },
+    "v0_vs_maia1900": {
+      "wins": 37,
+      "draws": 40,
+      "losses": 51,
+      "truncated": 0,
+      "total_games": 128,
+      "completed_games": 128,
+      "expected_games": 128,
+      "score_completed": 0.44531,
+      "complete_pairs": 64,
+      "ci95_paired": [
+        0.37109,
+        0.51953
+      ]
+    },
+    "v100_vs_maia1900": {
+      "wins": 32,
+      "draws": 38,
+      "losses": 58,
+      "truncated": 0,
+      "total_games": 128,
+      "completed_games": 128,
+      "expected_games": 128,
+      "score_completed": 0.39844,
+      "complete_pairs": 64,
+      "ci95_paired": [
+        0.32812,
+        0.46484
+      ]
+    },
+    "pool_s49_vs_maia1900": {
+      "wins": 43,
+      "draws": 31,
+      "losses": 54,
+      "truncated": 0,
+      "total_games": 128,
+      "completed_games": 128,
+      "expected_games": 128,
+      "score_completed": 0.45703,
+      "complete_pairs": 64,
+      "ci95_paired": [
+        0.38672,
+        0.52734
+      ]
+    },
+    "latest_s49_vs_maia1900": {
+      "wins": 47,
+      "draws": 46,
+      "losses": 35,
+      "truncated": 0,
+      "total_games": 128,
+      "completed_games": 128,
+      "expected_games": 128,
+      "score_completed": 0.54688,
+      "complete_pairs": 64,
+      "ci95_paired": [
+        0.47656,
+        0.61719
+      ]
+    }
+  },
+  "comparisons": {
+    "v100_minus_v0_vs_maia1100": {
+      "matched_opening_pairs": 64,
+      "score_delta": 0.05859,
+      "ci95_paired_difference": [
+        -0.03125,
+        0.14844
+      ]
+    },
+    "pool_s49_minus_v0_vs_maia1100": {
+      "matched_opening_pairs": 64,
+      "score_delta": 0.04688,
+      "ci95_paired_difference": [
+        -0.05859,
+        0.14844
+      ]
+    },
+    "latest_s49_minus_v0_vs_maia1100": {
+      "matched_opening_pairs": 64,
+      "score_delta": 0.05859,
+      "ci95_paired_difference": [
+        -0.03125,
+        0.14854
+      ]
+    },
+    "pool_s49_minus_v100_vs_maia1100": {
+      "matched_opening_pairs": 64,
+      "score_delta": -0.01172,
+      "ci95_paired_difference": [
+        -0.10156,
+        0.07812
+      ]
+    },
+    "latest_s49_minus_v100_vs_maia1100": {
+      "matched_opening_pairs": 64,
+      "score_delta": 0.0,
+      "ci95_paired_difference": [
+        -0.08203,
+        0.08203
+      ]
+    },
+    "v100_minus_v0_vs_maia1500": {
+      "matched_opening_pairs": 64,
+      "score_delta": -0.03125,
+      "ci95_paired_difference": [
+        -0.14453,
+        0.08203
+      ]
+    },
+    "pool_s49_minus_v0_vs_maia1500": {
+      "matched_opening_pairs": 64,
+      "score_delta": -0.01172,
+      "ci95_paired_difference": [
+        -0.11719,
+        0.09375
+      ]
+    },
+    "latest_s49_minus_v0_vs_maia1500": {
+      "matched_opening_pairs": 64,
+      "score_delta": -0.06641,
+      "ci95_paired_difference": [
+        -0.17969,
+        0.04688
+      ]
+    },
+    "pool_s49_minus_v100_vs_maia1500": {
+      "matched_opening_pairs": 64,
+      "score_delta": 0.01953,
+      "ci95_paired_difference": [
+        -0.08594,
+        0.11719
+      ]
+    },
+    "latest_s49_minus_v100_vs_maia1500": {
+      "matched_opening_pairs": 64,
+      "score_delta": -0.03516,
+      "ci95_paired_difference": [
+        -0.12891,
+        0.05469
+      ]
+    },
+    "v100_minus_v0_vs_maia1900": {
+      "matched_opening_pairs": 64,
+      "score_delta": -0.04688,
+      "ci95_paired_difference": [
+        -0.14453,
+        0.05078
+      ]
+    },
+    "pool_s49_minus_v0_vs_maia1900": {
+      "matched_opening_pairs": 64,
+      "score_delta": 0.01172,
+      "ci95_paired_difference": [
+        -0.08984,
+        0.10938
+      ]
+    },
+    "latest_s49_minus_v0_vs_maia1900": {
+      "matched_opening_pairs": 64,
+      "score_delta": 0.10156,
+      "ci95_paired_difference": [
+        -0.0001,
+        0.20322
+      ]
+    },
+    "pool_s49_minus_v100_vs_maia1900": {
+      "matched_opening_pairs": 64,
+      "score_delta": 0.05859,
+      "ci95_paired_difference": [
+        -0.05078,
+        0.17578
+      ]
+    },
+    "latest_s49_minus_v100_vs_maia1900": {
+      "matched_opening_pairs": 64,
+      "score_delta": 0.14844,
+      "ci95_paired_difference": [
+        0.04688,
+        0.25781
+      ]
+    }
+  }
+}

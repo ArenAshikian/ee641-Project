@@ -1,0 +1,78 @@
+# ------------------------------------------------------------
+# Python environments, caches, and build files
+# ------------------------------------------------------------
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# ------------------------------------------------------------
+# Large datasets and downloaded training data (28 GB+)
+# ------------------------------------------------------------
+/data/
+*.pgn
+*.zst
+*.bz2
+*.parquet
+
+# ------------------------------------------------------------
+# Model checkpoints and weights
+# Important checkpoints will be shared using GitHub Releases.
+# ------------------------------------------------------------
+/checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.pb.gz
+
+# ------------------------------------------------------------
+# Training and evaluation outputs
+# Share important results, but not raw experiment artifacts.
+# The exceptions also work for nested output folders.
+# ------------------------------------------------------------
+/outputs/**
+!/outputs/**/
+!/outputs/**/*.csv
+!/outputs/**/*.json
+!/outputs/**/*.md
+!/outputs/**/*.png
+!/outputs/**/*.svg
+!/outputs/**/*.pdf
+
+# ------------------------------------------------------------
+# Downloaded benchmark engines/models (keep benchmark code)
+# ------------------------------------------------------------
+/benchmarks/maia/
+/benchmarks/lc0/
+/benchmarks/stockfish/
+
+# ------------------------------------------------------------
+# Local archives, logs, and temporary files
+# ------------------------------------------------------------
+/research_archive/
+*.zip
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# ------------------------------------------------------------
+# Private credentials and machine-specific settings
+# ------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.token
+*token*.txt
+secrets.json
+credentials.json

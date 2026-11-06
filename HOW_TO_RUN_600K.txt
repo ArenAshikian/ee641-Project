@@ -1,0 +1,33 @@
+EE 641 | Safe PPO continuation from 100K to 600K (or 1M)
+
+WHAT THIS DOES
+- Extends the EXISTING batched continuation; no new PPO branch, no reset.
+- Leaves your model architecture, reward function, training openings,
+  RNG scheme, optimizer, and learning rate unchanged.
+- Preserves the original research checkpoints and October confirmation.
+- Saves latest.pt after EVERY 512-game iteration, as before.
+- Permanently archives at 150K, 200K, 300K, 400K, 500K, 600K,
+  750K and 1M. Existing 50K/75K/100K archives are untouched.
+
+INSTALL
+1. Extract this patch into B:\EE641_Chess_RL_Starter.
+2. Replace only run.cmd and chess_rl\ppo_batch_continue.py.
+3. Keep checkpoints/, outputs/, data/, benchmarks/, and .venv/ unchanged.
+4. The new tests\test_ppo_batch_extend.py is safe to add.
+5. Test: .venv\Scripts\python.exe -m unittest discover -s tests -p test_ppo_batch_extend.py -q
+6. Train: run.cmd ppo-continue-600k
+
+EXPECTED START OF LOG
+Resuming from new step 125. Target step 1100, 600,128 cumulative PPO games.
+If it starts at step 1, STOP, do not let it train against an unexpected source.
+
+The main 600K run will pass all intermediate milestones automatically,
+so you do not need to run the 150K/200K/etc. commands separately.
+You can interrupt AFTER a saved step and resume with the exact same command.
+
+IMPORTANT
+- This code patch was syntax-checked and milestone arithmetic validated;
+  the actual CUDA run and unit tests require your local environment.
+- The launcher's prior Maia evaluation commands are kept intact.
+- The CLI accepts the listed targets only (not arbitrary --steps values).
+- The 600K total is approximate because each batch has 512 games.

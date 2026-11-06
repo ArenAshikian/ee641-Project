@@ -1,0 +1,103 @@
+EE 641 | Historical-opponent PPO from original V100 to 600K
+
+IMPORTANT CHANGE
+This replaces the earlier 100K-parent historical patch. The new branch starts
+from checkpoints\ppo_v0100.pt (original V100: 11,840 cumulative PPO games),
+NOT from checkpoints\ppo_batch_continue\s0124.pt (100,416 games).
+
+PRESERVE EXISTING EXPERIMENTS
+- If run.cmd ppo-continue-600k is still running, stop it with Ctrl+C after a
+  "Saved step ..." line. Previously completed steps remain saved.
+- Never run two training commands on the RTX 3090 at the same time.
+- Back up your current run.cmd before installing.
+- Extract the ZIP into B:\EE641_Chess_RL_Starter, replacing run.cmd and the
+  earlier ppo_historical_continue.py and test_ppo_historical.py when asked.
+- Do not delete or replace any checkpoints, outputs, benchmarks, .venv or data.
+- This patch does NOT change the existing ppo_batch_continue.py trainer.
+- A prior 100K-parent historical experiment (if any) remains untouched in
+  checkpoints\ppo_historical_100k; this patch uses a different folder.
+
+STEP 1: VERIFY ON YOUR PC
+  run.cmd ppo-historical-smoke
+
+This checks the source checkpoint, original V0..V100 frozen opponents, game
+sampling and actual small CPU/CUDA PPO update. Smoke changes weights only in
+memory; it saves no model files or experiment logs.
+
+STEP 2: TRAIN
+  run.cmd ppo-historical-600k
+
+Expected start:
+  Historical-pool PPO, device=cuda, frozen V100 parent SHA256=...
+  New step 1; target step 1149 (600,128 cumulative games).
+  Opponent sampling per 512 games: 128 current, 256 recent archived,
+  128 older archived. Colors paired; no search.
+
+Training begins at 11,840 cumulative PPO games and performs 1,149 new
+iterations of 512 games (588,288 additional games). This run uses the
+original V100 model and optimizer state. Only new learner weights are updated;
+all opponents are frozen. The training objective is unchanged and no chess
+engine is used to train the model or choose moves.
+
+Opponent pool initially contains ONLY original V0, V10, V20, ... V100.
+NO original S49 / 50K / 75K / 100K or later latest-only model can appear in
+this branch's opponent pool. Each ten iterations, a new historical branch
+checkpoint enters the pool for future games.
+
+The deterministic opening-position and PPO seeds match the current-only
+V100->S49 experiment in its first 49 steps, then the S49->600K continuation
+in later steps. Because PPO rollout batching and opponent choices differ,
+results are NOT bit-for-bit matched; the comparison is experimental.
+
+SAVING AND RESUMING
+After every 512-game iteration:
+  checkpoints\ppo_historical_v100\latest.pt
+
+Permanent archive every 10 new steps, plus exact matched-budget milestones:
+   historical step 49  = 36,928  cumulative games
+   historical step 75  = 50,240  cumulative games
+   historical step 124 = 75,328  cumulative games
+   historical step 173 = 100,416 cumulative games
+   historical step 270 = 150,080 cumulative games
+   historical step 367 = 199,744 cumulative games
+   historical step 563 = 300,096 cumulative games
+   historical step 758 = 399,936 cumulative games
+   historical step 953 = 499,776 cumulative games
+   historical step 1149 = 600,128 cumulative games
+
+Metrics:
+  outputs\ppo_historical_v100_metrics.csv
+  outputs\ppo_historical_v100_opponents.csv
+
+If interrupted, rerun the same 600K command to resume the last saved step.
+The earlier current-only checkpoints are never overwritten by this trainer.
+
+OPTIONAL TARGETS
+  run.cmd ppo-historical-37k
+  run.cmd ppo-historical-50k
+  run.cmd ppo-historical-75k
+  run.cmd ppo-historical-100k
+  run.cmd ppo-historical-200k
+  run.cmd ppo-historical-300k
+  run.cmd ppo-historical-400k
+  run.cmd ppo-historical-500k
+  run.cmd ppo-historical-600k
+  run.cmd ppo-historical-1m
+  run.cmd ppo-historical-report
+
+CHECKS
+- Python syntax and milestone arithmetic were verified in the authoring
+  environment. Run.cmd targets were checked.
+- Full chess/CUDA tests require your installed .venv and your checkpoint
+  files and cannot be run in this environment.
+- Verify available B: drive disk space: hundreds of permanent checkpoints
+  with weights and AdamW state may occupy several gigabytes.
+
+RESEARCH NOTE
+The current-only baseline originally used serial rollout for its first 49
+V100 continuation iterations and batched rollout afterward. The historical
+branch uses the batched engine from the beginning. This difference matters
+for interpreting strict causal claims. Both branches start from the same
+V100 model and optimizer state, but neither is guaranteed to outperform the
+other. For a rigorous ablation, repeat the current-only path with the same
+batched rollout implementation and multiple seeds when time permits.

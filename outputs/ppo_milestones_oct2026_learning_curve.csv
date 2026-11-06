@@ -1,0 +1,6 @@
+model,cumulative_ppo_games,games,expected_games,wins,draws,losses,truncated,completed_game_score,complete_opening_pairs,paired_ci95_low,paired_ci95_high
+v0,0,512,512,133,153,226,0,0.40918,256,0.37402,0.44238
+latest_s49,36928,512,512,166,137,209,0,0.45801,256,0.42283,0.49316
+ppo_50k,50240,512,512,181,149,181,1,0.5,255,0.46667,0.53529
+ppo_75k,75328,512,512,189,139,184,0,0.50488,256,0.4668,0.54297
+ppo_100k,100416,512,512,200,137,175,0,0.52441,256,0.4873,0.5625

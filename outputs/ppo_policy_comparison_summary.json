@@ -1,0 +1,184 @@
+{
+  "method": "No search, 1 network pass per move, greedy V0 opponent",
+  "pairs_per_condition": 200,
+  "conditions": [
+    {
+      "condition": "v0_greedy",
+      "candidate": "v0",
+      "move_selection": "greedy",
+      "opponent": "v0_greedy",
+      "games_saved": 400,
+      "expected_games": 400,
+      "wins": 159,
+      "draws": 82,
+      "losses": 159,
+      "truncated": 0,
+      "game_score": 0.5,
+      "paired_openings": 200,
+      "paired_score": 0.5,
+      "paired_bootstrap_95pct": [
+        0.5,
+        0.5
+      ],
+      "by_color": {
+        "white": {
+          "losses": 67,
+          "wins": 92,
+          "draws": 41
+        },
+        "black": {
+          "wins": 67,
+          "losses": 92,
+          "draws": 41
+        }
+      },
+      "termination_reasons": {
+        "CHECKMATE": 318,
+        "THREEFOLD_REPETITION": 68,
+        "STALEMATE": 10,
+        "INSUFFICIENT_MATERIAL": 4
+      }
+    },
+    {
+      "condition": "v100_greedy",
+      "candidate": "v100",
+      "move_selection": "greedy",
+      "opponent": "v0_greedy",
+      "games_saved": 400,
+      "expected_games": 400,
+      "wins": 147,
+      "draws": 100,
+      "losses": 153,
+      "truncated": 0,
+      "game_score": 0.4925,
+      "paired_openings": 200,
+      "paired_score": 0.4925,
+      "paired_bootstrap_95pct": [
+        0.455,
+        0.5312
+      ],
+      "by_color": {
+        "white": {
+          "draws": 50,
+          "losses": 65,
+          "wins": 85
+        },
+        "black": {
+          "losses": 88,
+          "wins": 62,
+          "draws": 50
+        }
+      },
+      "termination_reasons": {
+        "THREEFOLD_REPETITION": 84,
+        "CHECKMATE": 300,
+        "STALEMATE": 13,
+        "INSUFFICIENT_MATERIAL": 3
+      }
+    },
+    {
+      "condition": "v0_sampled",
+      "candidate": "v0",
+      "move_selection": "sampled",
+      "opponent": "v0_greedy",
+      "games_saved": 400,
+      "expected_games": 400,
+      "wins": 51,
+      "draws": 58,
+      "losses": 291,
+      "truncated": 0,
+      "game_score": 0.2,
+      "paired_openings": 200,
+      "paired_score": 0.2,
+      "paired_bootstrap_95pct": [
+        0.1675,
+        0.235
+      ],
+      "by_color": {
+        "white": {
+          "losses": 141,
+          "draws": 32,
+          "wins": 27
+        },
+        "black": {
+          "losses": 150,
+          "wins": 24,
+          "draws": 26
+        }
+      },
+      "termination_reasons": {
+        "CHECKMATE": 342,
+        "THREEFOLD_REPETITION": 37,
+        "INSUFFICIENT_MATERIAL": 3,
+        "STALEMATE": 18
+      }
+    },
+    {
+      "condition": "v100_sampled",
+      "candidate": "v100",
+      "move_selection": "sampled",
+      "opponent": "v0_greedy",
+      "games_saved": 400,
+      "expected_games": 400,
+      "wins": 110,
+      "draws": 84,
+      "losses": 205,
+      "truncated": 1,
+      "game_score": 0.381,
+      "paired_openings": 199,
+      "paired_score": 0.3794,
+      "paired_bootstrap_95pct": [
+        0.3392,
+        0.4196
+      ],
+      "by_color": {
+        "white": {
+          "losses": 96,
+          "wins": 61,
+          "draws": 43
+        },
+        "black": {
+          "losses": 109,
+          "wins": 49,
+          "draws": 41,
+          "truncated": 1
+        }
+      },
+      "termination_reasons": {
+        "CHECKMATE": 315,
+        "THREEFOLD_REPETITION": 53,
+        "INSUFFICIENT_MATERIAL": 7,
+        "STALEMATE": 23,
+        "FIFTY_MOVES": 1,
+        "MAX_PLIES": 1
+      }
+    }
+  ],
+  "matched_comparisons": {
+    "common_completed_opening_pairs": 199,
+    "comparisons": {
+      "greedy_v100_minus_v0": {
+        "mean_score_difference": -0.0088,
+        "paired_bootstrap_95pct": [
+          -0.0465,
+          0.0302
+        ]
+      },
+      "sampled_v100_minus_v0": {
+        "mean_score_difference": 0.1784,
+        "paired_bootstrap_95pct": [
+          0.1281,
+          0.2261
+        ]
+      },
+      "sampled_gain_minus_greedy_gain": {
+        "mean_score_difference": 0.1872,
+        "paired_bootstrap_95pct": [
+          0.1244,
+          0.2513
+        ]
+      }
+    },
+    "note": "Deltas use identical starting positions and reversed colors across all four conditions. Resampling unit is the complete opening pair. A difference-of-differences above zero indicates a larger V100 gain under sampled than under greedy play. These are exploratory results."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "random_legal": {
+    "draw": 3,
+    "win": 5
+  },
+  "supervised_100000": {
+    "draw": 3,
+    "win": 5
+  }
+}

@@ -1,0 +1,401 @@
+version,opponent,opening_pair,opening_uci,learner_color,score,winner,termination,truncated,plies
+60,v0,0,e2e4 c7c6 d1f3 g8f6,white,0.0,black,CHECKMATE,0,112
+60,v0,0,e2e4 c7c6 d1f3 g8f6,black,0.5,draw,STALEMATE,0,117
+60,v0,1,d2d4 b7b5 g1h3 c7c5 e2e3 g8h6,white,0.0,black,CHECKMATE,0,54
+60,v0,1,d2d4 b7b5 g1h3 c7c5 e2e3 g8h6,black,0.5,draw,THREEFOLD_REPETITION,0,118
+60,v0,2,c2c4 c7c5 b1c3 b8a6 d1c2 h7h5 c2a4 d8a5,white,1.0,white,CHECKMATE,0,89
+60,v0,2,c2c4 c7c5 b1c3 b8a6 d1c2 h7h5 c2a4 d8a5,black,0.0,white,CHECKMATE,0,77
+60,v0,3,g1f3 b8a6 c2c4 g7g6,white,1.0,white,CHECKMATE,0,65
+60,v0,3,g1f3 b8a6 c2c4 g7g6,black,0.5,draw,THREEFOLD_REPETITION,0,82
+60,v0,4,e2e4 b8c6 f1e2 c6e5 e2h5 e5f3,white,1.0,white,CHECKMATE,0,77
+60,v0,4,e2e4 b8c6 f1e2 c6e5 e2h5 e5f3,black,0.0,white,CHECKMATE,0,117
+60,v0,5,d2d4 f7f5 d1d2 e7e5 a2a3 b7b5 d4d5 e8f7,white,1.0,white,CHECKMATE,0,115
+60,v0,5,d2d4 f7f5 d1d2 e7e5 a2a3 b7b5 d4d5 e8f7,black,0.0,white,CHECKMATE,0,67
+60,v0,6,c2c4 f7f5 b1a3 a7a5,white,1.0,white,CHECKMATE,0,57
+60,v0,6,c2c4 f7f5 b1a3 a7a5,black,0.5,draw,THREEFOLD_REPETITION,0,67
+60,v0,7,g1f3 c7c5 a2a3 h7h6 e2e4 f7f6,white,1.0,white,CHECKMATE,0,75
+60,v0,7,g1f3 c7c5 a2a3 h7h6 e2e4 f7f6,black,0.0,white,CHECKMATE,0,41
+60,v0,8,e2e4 d7d5 f1a6 c8d7 b2b3 d5e4 c1a3 h7h6,white,1.0,white,CHECKMATE,0,31
+60,v0,8,e2e4 d7d5 f1a6 c8d7 b2b3 d5e4 c1a3 h7h6,black,1.0,black,CHECKMATE,0,46
+60,v0,9,d2d4 c7c5 g2g4 a7a6,white,0.5,draw,THREEFOLD_REPETITION,0,51
+60,v0,9,d2d4 c7c5 g2g4 a7a6,black,1.0,black,CHECKMATE,0,72
+60,v0,10,c2c4 b7b6 b2b3 h7h6 e2e3 c8b7,white,0.0,black,CHECKMATE,0,130
+60,v0,10,c2c4 b7b6 b2b3 h7h6 e2e3 c8b7,black,0.0,white,CHECKMATE,0,135
+60,v0,11,g1f3 b8a6 h2h3 g7g5 d2d4 d7d5 e2e3 d8d6,white,0.0,black,CHECKMATE,0,114
+60,v0,11,g1f3 b8a6 h2h3 g7g5 d2d4 d7d5 e2e3 d8d6,black,0.5,draw,THREEFOLD_REPETITION,0,95
+60,v0,12,e2e4 b7b6 h2h3 c8b7,white,0.5,draw,THREEFOLD_REPETITION,0,114
+60,v0,12,e2e4 b7b6 h2h3 c8b7,black,1.0,black,CHECKMATE,0,66
+60,v0,13,d2d4 b7b6 d4d5 f7f6 g2g4 b6b5,white,0.5,draw,THREEFOLD_REPETITION,0,89
+60,v0,13,d2d4 b7b6 d4d5 f7f6 g2g4 b6b5,black,0.5,draw,THREEFOLD_REPETITION,0,62
+60,v0,14,c2c4 e7e6 b2b4 b7b5 c4b5 e8e7 d1a4 e7d6,white,0.5,draw,STALEMATE,0,113
+60,v0,14,c2c4 e7e6 b2b4 b7b5 c4b5 e8e7 d1a4 e7d6,black,0.0,white,CHECKMATE,0,41
+60,v0,15,g1f3 g8f6 e2e3 e7e5,white,0.0,black,CHECKMATE,0,168
+60,v0,15,g1f3 g8f6 e2e3 e7e5,black,1.0,black,CHECKMATE,0,58
+60,v0,16,e2e4 g7g6 b1a3 b8c6 f1b5 f7f5,white,0.0,black,CHECKMATE,0,52
+60,v0,16,e2e4 g7g6 b1a3 b8c6 f1b5 f7f5,black,0.0,white,CHECKMATE,0,3
+60,v0,17,d2d4 c7c6 g2g4 d7d6 c1g5 d8d7 g5e3 d7d8,white,0.0,black,CHECKMATE,0,90
+60,v0,17,d2d4 c7c6 g2g4 d7d6 c1g5 d8d7 g5e3 d7d8,black,0.5,draw,THREEFOLD_REPETITION,0,89
+60,v0,18,c2c4 b8a6 g1f3 f7f6,white,1.0,white,CHECKMATE,0,95
+60,v0,18,c2c4 b8a6 g1f3 f7f6,black,1.0,black,CHECKMATE,0,76
+60,v0,19,g1f3 e7e5 h2h4 f7f5 b2b4 c7c6,white,0.0,black,CHECKMATE,0,98
+60,v0,19,g1f3 e7e5 h2h4 f7f5 b2b4 c7c6,black,1.0,black,CHECKMATE,0,42
+60,v0,20,e2e4 h7h6 d2d4 g7g6 f1a6 b7b5 b2b3 f7f6,white,0.0,black,CHECKMATE,0,122
+60,v0,20,e2e4 h7h6 d2d4 g7g6 f1a6 b7b5 b2b3 f7f6,black,0.5,draw,THREEFOLD_REPETITION,0,78
+60,v0,21,d2d4 f7f5 c1f4 b8a6,white,0.5,draw,THREEFOLD_REPETITION,0,44
+60,v0,21,d2d4 f7f5 c1f4 b8a6,black,0.5,draw,THREEFOLD_REPETITION,0,146
+60,v0,22,c2c4 b7b5 g2g4 c7c6 a2a3 a7a6,white,0.0,black,CHECKMATE,0,68
+60,v0,22,c2c4 b7b5 g2g4 c7c6 a2a3 a7a6,black,0.0,white,CHECKMATE,0,97
+60,v0,23,g1f3 h7h5 f3d4 g8h6 h2h4 b8a6 g2g3 g7g6,white,0.5,draw,THREEFOLD_REPETITION,0,78
+60,v0,23,g1f3 h7h5 f3d4 g8h6 h2h4 b8a6 g2g3 g7g6,black,0.5,draw,THREEFOLD_REPETITION,0,117
+60,v0,24,e2e4 h7h6 d1e2 b7b5,white,0.0,black,CHECKMATE,0,82
+60,v0,24,e2e4 h7h6 d1e2 b7b5,black,0.5,draw,THREEFOLD_REPETITION,0,65
+60,v0,25,d2d4 c7c5 e2e4 g8h6 b2b3 b7b6,white,0.0,black,CHECKMATE,0,106
+60,v0,25,d2d4 c7c5 e2e4 g8h6 b2b3 b7b6,black,0.5,draw,THREEFOLD_REPETITION,0,77
+60,v0,26,c2c4 h7h5 b2b4 e7e6 c1a3 d8h4 a3b2 h4d8,white,0.0,black,CHECKMATE,0,72
+60,v0,26,c2c4 h7h5 b2b4 e7e6 c1a3 d8h4 a3b2 h4d8,black,0.5,draw,THREEFOLD_REPETITION,0,108
+60,v0,27,g1f3 b7b5 b1a3 c8a6,white,0.0,black,CHECKMATE,0,36
+60,v0,27,g1f3 b7b5 b1a3 c8a6,black,1.0,black,CHECKMATE,0,46
+60,v0,28,e2e4 a7a6 g1e2 g8h6 d2d4 e7e6,white,0.0,black,CHECKMATE,0,50
+60,v0,28,e2e4 a7a6 g1e2 g8h6 d2d4 e7e6,black,0.0,white,CHECKMATE,0,69
+60,v0,29,d2d4 d7d5 g2g4 d8d6 d1d3 b7b5 f2f4 c7c6,white,1.0,white,CHECKMATE,0,125
+60,v0,29,d2d4 d7d5 g2g4 d8d6 d1d3 b7b5 f2f4 c7c6,black,0.0,white,CHECKMATE,0,47
+60,v0,30,c2c4 b8a6 a2a4 h7h5,white,0.0,black,CHECKMATE,0,56
+60,v0,30,c2c4 b8a6 a2a4 h7h5,black,0.5,draw,THREEFOLD_REPETITION,0,41
+60,v0,31,g1f3 f7f5 h2h3 e8f7 f3g5 f7e8,white,1.0,white,CHECKMATE,0,5
+60,v0,31,g1f3 f7f5 h2h3 e8f7 f3g5 f7e8,black,0.0,white,CHECKMATE,0,59
+60,v0,32,e2e4 e7e5 d2d4 d8f6 d1d3 h7h5 d3h3 f8a3,white,1.0,white,CHECKMATE,0,59
+60,v0,32,e2e4 e7e5 d2d4 d8f6 d1d3 h7h5 d3h3 f8a3,black,0.5,draw,THREEFOLD_REPETITION,0,61
+60,v0,33,d2d4 h7h5 f2f3 b8a6,white,0.5,draw,INSUFFICIENT_MATERIAL,0,129
+60,v0,33,d2d4 h7h5 f2f3 b8a6,black,0.0,white,CHECKMATE,0,31
+60,v0,34,c2c4 h7h6 f2f3 g8f6 d1a4 b8a6,white,0.5,draw,STALEMATE,0,97
+60,v0,34,c2c4 h7h6 f2f3 g8f6 d1a4 b8a6,black,0.5,draw,STALEMATE,0,91
+60,v0,35,g1f3 b7b5 a2a3 b8c6 c2c3 c6a5 a1a2 h7h6,white,0.0,black,CHECKMATE,0,56
+60,v0,35,g1f3 b7b5 a2a3 b8c6 c2c3 c6a5 a1a2 h7h6,black,1.0,black,CHECKMATE,0,60
+60,v0,36,e2e4 b8a6 a2a3 e7e6,white,1.0,white,CHECKMATE,0,125
+60,v0,36,e2e4 b8a6 a2a3 e7e6,black,1.0,black,CHECKMATE,0,102
+60,v0,37,d2d4 h7h6 d1d2 g8f6 d2d1 c7c5,white,0.0,black,CHECKMATE,0,118
+60,v0,37,d2d4 h7h6 d1d2 g8f6 d2d1 c7c5,black,0.0,white,CHECKMATE,0,109
+60,v0,38,c2c4 d7d6 a2a3 g8h6 d1c2 g7g5 g2g4 b8d7,white,0.5,draw,STALEMATE,0,118
+60,v0,38,c2c4 d7d6 a2a3 g8h6 d1c2 g7g5 g2g4 b8d7,black,0.0,white,CHECKMATE,0,51
+60,v0,39,g1f3 a7a5 a2a4 b8c6,white,0.5,draw,THREEFOLD_REPETITION,0,81
+60,v0,39,g1f3 a7a5 a2a4 b8c6,black,0.5,draw,THREEFOLD_REPETITION,0,105
+60,v0,40,e2e4 d7d6 b1c3 c7c5 f1c4 d6d5,white,0.0,black,CHECKMATE,0,72
+60,v0,40,e2e4 d7d6 b1c3 c7c5 f1c4 d6d5,black,1.0,black,CHECKMATE,0,54
+60,v0,41,d2d4 b7b5 g2g3 c8b7 b1a3 b7g2 f1g2 g8h6,white,1.0,white,CHECKMATE,0,87
+60,v0,41,d2d4 b7b5 g2g3 c8b7 b1a3 b7g2 f1g2 g8h6,black,0.5,draw,STALEMATE,0,83
+60,v0,42,c2c4 f7f6 d1a4 g8h6,white,0.0,black,CHECKMATE,0,124
+60,v0,42,c2c4 f7f6 d1a4 g8h6,black,0.0,white,CHECKMATE,0,91
+60,v0,43,g1f3 g8h6 f3d4 h6g8 b1a3 g7g5,white,1.0,white,CHECKMATE,0,45
+60,v0,43,g1f3 g8h6 f3d4 h6g8 b1a3 g7g5,black,0.0,white,CHECKMATE,0,61
+60,v0,44,e2e4 b7b5 f1c4 c8b7 h2h4 d7d6 c2c3 e8d7,white,1.0,white,CHECKMATE,0,69
+60,v0,44,e2e4 b7b5 f1c4 c8b7 h2h4 d7d6 c2c3 e8d7,black,0.0,white,CHECKMATE,0,111
+60,v0,45,d2d4 g7g6 g2g4 d7d6,white,1.0,white,CHECKMATE,0,67
+60,v0,45,d2d4 g7g6 g2g4 d7d6,black,1.0,black,CHECKMATE,0,56
+60,v0,46,c2c4 e7e6 f2f4 a7a5 h2h3 f8b4,white,1.0,white,CHECKMATE,0,49
+60,v0,46,c2c4 e7e6 f2f4 a7a5 h2h3 f8b4,black,1.0,black,CHECKMATE,0,4
+60,v0,47,g1f3 f7f5 b2b3 a7a6 e2e4 b7b6 c1b2 c8b7,white,1.0,white,CHECKMATE,0,45
+60,v0,47,g1f3 f7f5 b2b3 a7a6 e2e4 b7b6 c1b2 c8b7,black,1.0,black,CHECKMATE,0,44
+60,v0,48,e2e4 d7d5 g1e2 a7a5,white,1.0,white,CHECKMATE,0,139
+60,v0,48,e2e4 d7d5 g1e2 a7a5,black,1.0,black,CHECKMATE,0,66
+60,v0,49,d2d4 h7h5 h2h3 c7c5 c2c3 g8h6,white,1.0,white,CHECKMATE,0,93
+60,v0,49,d2d4 h7h5 h2h3 c7c5 c2c3 g8h6,black,1.0,black,CHECKMATE,0,42
+60,v10,0,e2e4 c7c6 d1f3 g8f6,white,0.5,draw,THREEFOLD_REPETITION,0,85
+60,v10,0,e2e4 c7c6 d1f3 g8f6,black,1.0,black,CHECKMATE,0,106
+60,v10,1,d2d4 b7b5 g1h3 c7c5 e2e3 g8h6,white,0.0,black,CHECKMATE,0,54
+60,v10,1,d2d4 b7b5 g1h3 c7c5 e2e3 g8h6,black,0.5,draw,THREEFOLD_REPETITION,0,63
+60,v10,2,c2c4 c7c5 b1c3 b8a6 d1c2 h7h5 c2a4 d8a5,white,0.5,draw,STALEMATE,0,121
+60,v10,2,c2c4 c7c5 b1c3 b8a6 d1c2 h7h5 c2a4 d8a5,black,0.0,white,CHECKMATE,0,93
+60,v10,3,g1f3 b8a6 c2c4 g7g6,white,0.5,draw,THREEFOLD_REPETITION,0,139
+60,v10,3,g1f3 b8a6 c2c4 g7g6,black,0.5,draw,THREEFOLD_REPETITION,0,43
+60,v10,4,e2e4 b8c6 f1e2 c6e5 e2h5 e5f3,white,1.0,white,CHECKMATE,0,69
+60,v10,4,e2e4 b8c6 f1e2 c6e5 e2h5 e5f3,black,0.0,white,CHECKMATE,0,77
+60,v10,5,d2d4 f7f5 d1d2 e7e5 a2a3 b7b5 d4d5 e8f7,white,0.0,black,CHECKMATE,0,38
+60,v10,5,d2d4 f7f5 d1d2 e7e5 a2a3 b7b5 d4d5 e8f7,black,1.0,black,CHECKMATE,0,68
+60,v10,6,c2c4 f7f5 b1a3 a7a5,white,1.0,white,CHECKMATE,0,57
+60,v10,6,c2c4 f7f5 b1a3 a7a5,black,1.0,black,CHECKMATE,0,58
+60,v10,7,g1f3 c7c5 a2a3 h7h6 e2e4 f7f6,white,0.5,draw,THREEFOLD_REPETITION,0,33
+60,v10,7,g1f3 c7c5 a2a3 h7h6 e2e4 f7f6,black,0.0,white,CHECKMATE,0,41
+60,v10,8,e2e4 d7d5 f1a6 c8d7 b2b3 d5e4 c1a3 h7h6,white,1.0,white,CHECKMATE,0,27
+60,v10,8,e2e4 d7d5 f1a6 c8d7 b2b3 d5e4 c1a3 h7h6,black,0.5,draw,THREEFOLD_REPETITION,0,23
+60,v10,9,d2d4 c7c5 g2g4 a7a6,white,0.0,black,CHECKMATE,0,92
+60,v10,9,d2d4 c7c5 g2g4 a7a6,black,1.0,black,CHECKMATE,0,94
+60,v10,10,c2c4 b7b6 b2b3 h7h6 e2e3 c8b7,white,0.0,black,CHECKMATE,0,82
+60,v10,10,c2c4 b7b6 b2b3 h7h6 e2e3 c8b7,black,0.0,white,CHECKMATE,0,141
+60,v10,11,g1f3 b8a6 h2h3 g7g5 d2d4 d7d5 e2e3 d8d6,white,0.5,draw,THREEFOLD_REPETITION,0,92
+60,v10,11,g1f3 b8a6 h2h3 g7g5 d2d4 d7d5 e2e3 d8d6,black,0.5,draw,THREEFOLD_REPETITION,0,83
+60,v10,12,e2e4 b7b6 h2h3 c8b7,white,1.0,white,CHECKMATE,0,131
+60,v10,12,e2e4 b7b6 h2h3 c8b7,black,0.0,white,CHECKMATE,0,55
+60,v10,13,d2d4 b7b6 d4d5 f7f6 g2g4 b6b5,white,0.0,black,CHECKMATE,0,126
+60,v10,13,d2d4 b7b6 d4d5 f7f6 g2g4 b6b5,black,1.0,black,CHECKMATE,0,30
+60,v10,14,c2c4 e7e6 b2b4 b7b5 c4b5 e8e7 d1a4 e7d6,white,0.0,black,CHECKMATE,0,62
+60,v10,14,c2c4 e7e6 b2b4 b7b5 c4b5 e8e7 d1a4 e7d6,black,0.0,white,CHECKMATE,0,97
+60,v10,15,g1f3 g8f6 e2e3 e7e5,white,0.5,draw,THREEFOLD_REPETITION,0,91
+60,v10,15,g1f3 g8f6 e2e3 e7e5,black,0.0,white,CHECKMATE,0,123
+60,v10,16,e2e4 g7g6 b1a3 b8c6 f1b5 f7f5,white,0.0,black,CHECKMATE,0,52
+60,v10,16,e2e4 g7g6 b1a3 b8c6 f1b5 f7f5,black,0.0,white,CHECKMATE,0,3
+60,v10,17,d2d4 c7c6 g2g4 d7d6 c1g5 d8d7 g5e3 d7d8,white,0.0,black,CHECKMATE,0,68
+60,v10,17,d2d4 c7c6 g2g4 d7d6 c1g5 d8d7 g5e3 d7d8,black,1.0,black,CHECKMATE,0,122
+60,v10,18,c2c4 b8a6 g1f3 f7f6,white,0.0,black,CHECKMATE,0,78
+60,v10,18,c2c4 b8a6 g1f3 f7f6,black,0.5,draw,THREEFOLD_REPETITION,0,125
+60,v10,19,g1f3 e7e5 h2h4 f7f5 b2b4 c7c6,white,1.0,white,CHECKMATE,0,51
+60,v10,19,g1f3 e7e5 h2h4 f7f5 b2b4 c7c6,black,0.5,draw,THREEFOLD_REPETITION,0,71
+60,v10,20,e2e4 h7h6 d2d4 g7g6 f1a6 b7b5 b2b3 f7f6,white,1.0,white,CHECKMATE,0,67
+60,v10,20,e2e4 h7h6 d2d4 g7g6 f1a6 b7b5 b2b3 f7f6,black,0.5,draw,THREEFOLD_REPETITION,0,69
+60,v10,21,d2d4 f7f5 c1f4 b8a6,white,0.5,draw,THREEFOLD_REPETITION,0,44
+60,v10,21,d2d4 f7f5 c1f4 b8a6,black,0.5,draw,STALEMATE,0,95
+60,v10,22,c2c4 b7b5 g2g4 c7c6 a2a3 a7a6,white,0.0,black,CHECKMATE,0,110
+60,v10,22,c2c4 b7b5 g2g4 c7c6 a2a3 a7a6,black,0.5,draw,THREEFOLD_REPETITION,0,95
+60,v10,23,g1f3 h7h5 f3d4 g8h6 h2h4 b8a6 g2g3 g7g6,white,0.0,black,CHECKMATE,0,112
+60,v10,23,g1f3 h7h5 f3d4 g8h6 h2h4 b8a6 g2g3 g7g6,black,1.0,black,CHECKMATE,0,114
+60,v10,24,e2e4 h7h6 d1e2 b7b5,white,0.0,black,CHECKMATE,0,32
+60,v10,24,e2e4 h7h6 d1e2 b7b5,black,1.0,black,CHECKMATE,0,84
+60,v10,25,d2d4 c7c5 e2e4 g8h6 b2b3 b7b6,white,1.0,white,CHECKMATE,0,77
+60,v10,25,d2d4 c7c5 e2e4 g8h6 b2b3 b7b6,black,1.0,black,CHECKMATE,0,48
+60,v10,26,c2c4 h7h5 b2b4 e7e6 c1a3 d8h4 a3b2 h4d8,white,0.5,draw,STALEMATE,0,92
+60,v10,26,c2c4 h7h5 b2b4 e7e6 c1a3 d8h4 a3b2 h4d8,black,0.5,draw,THREEFOLD_REPETITION,0,84
+60,v10,27,g1f3 b7b5 b1a3 c8a6,white,0.0,black,CHECKMATE,0,36
+60,v10,27,g1f3 b7b5 b1a3 c8a6,black,1.0,black,CHECKMATE,0,86
+60,v10,28,e2e4 a7a6 g1e2 g8h6 d2d4 e7e6,white,0.0,black,CHECKMATE,0,54
+60,v10,28,e2e4 a7a6 g1e2 g8h6 d2d4 e7e6,black,0.0,white,CHECKMATE,0,63
+60,v10,29,d2d4 d7d5 g2g4 d8d6 d1d3 b7b5 f2f4 c7c6,white,0.5,draw,THREEFOLD_REPETITION,0,83
+60,v10,29,d2d4 d7d5 g2g4 d8d6 d1d3 b7b5 f2f4 c7c6,black,1.0,black,CHECKMATE,0,128
+60,v10,30,c2c4 b8a6 a2a4 h7h5,white,0.0,black,CHECKMATE,0,74
+60,v10,30,c2c4 b8a6 a2a4 h7h5,black,0.0,white,CHECKMATE,0,105
+60,v10,31,g1f3 f7f5 h2h3 e8f7 f3g5 f7e8,white,1.0,white,CHECKMATE,0,5
+60,v10,31,g1f3 f7f5 h2h3 e8f7 f3g5 f7e8,black,0.0,white,CHECKMATE,0,71
+60,v10,32,e2e4 e7e5 d2d4 d8f6 d1d3 h7h5 d3h3 f8a3,white,1.0,white,CHECKMATE,0,59
+60,v10,32,e2e4 e7e5 d2d4 d8f6 d1d3 h7h5 d3h3 f8a3,black,0.0,white,CHECKMATE,0,77
+60,v10,33,d2d4 h7h5 f2f3 b8a6,white,1.0,white,CHECKMATE,0,119
+60,v10,33,d2d4 h7h5 f2f3 b8a6,black,0.5,draw,THREEFOLD_REPETITION,0,76
+60,v10,34,c2c4 h7h6 f2f3 g8f6 d1a4 b8a6,white,0.5,draw,THREEFOLD_REPETITION,0,80
+60,v10,34,c2c4 h7h6 f2f3 g8f6 d1a4 b8a6,black,0.0,white,CHECKMATE,0,97
+60,v10,35,g1f3 b7b5 a2a3 b8c6 c2c3 c6a5 a1a2 h7h6,white,1.0,white,CHECKMATE,0,97
+60,v10,35,g1f3 b7b5 a2a3 b8c6 c2c3 c6a5 a1a2 h7h6,black,0.5,draw,THREEFOLD_REPETITION,0,37
+60,v10,36,e2e4 b8a6 a2a3 e7e6,white,0.0,black,CHECKMATE,0,96
+60,v10,36,e2e4 b8a6 a2a3 e7e6,black,0.0,white,CHECKMATE,0,31
+60,v10,37,d2d4 h7h6 d1d2 g8f6 d2d1 c7c5,white,1.0,white,CHECKMATE,0,69
+60,v10,37,d2d4 h7h6 d1d2 g8f6 d2d1 c7c5,black,0.5,draw,THREEFOLD_REPETITION,0,93
+60,v10,38,c2c4 d7d6 a2a3 g8h6 d1c2 g7g5 g2g4 b8d7,white,1.0,white,CHECKMATE,0,41
+60,v10,38,c2c4 d7d6 a2a3 g8h6 d1c2 g7g5 g2g4 b8d7,black,1.0,black,CHECKMATE,0,94
+60,v10,39,g1f3 a7a5 a2a4 b8c6,white,0.5,draw,THREEFOLD_REPETITION,0,67
+60,v10,39,g1f3 a7a5 a2a4 b8c6,black,0.0,white,CHECKMATE,0,127
+60,v10,40,e2e4 d7d6 b1c3 c7c5 f1c4 d6d5,white,0.0,black,CHECKMATE,0,72
+60,v10,40,e2e4 d7d6 b1c3 c7c5 f1c4 d6d5,black,0.5,draw,THREEFOLD_REPETITION,0,79
+60,v10,41,d2d4 b7b5 g2g3 c8b7 b1a3 b7g2 f1g2 g8h6,white,0.5,draw,STALEMATE,0,88
+60,v10,41,d2d4 b7b5 g2g3 c8b7 b1a3 b7g2 f1g2 g8h6,black,0.5,draw,STALEMATE,0,83
+60,v10,42,c2c4 f7f6 d1a4 g8h6,white,1.0,white,CHECKMATE,0,59
+60,v10,42,c2c4 f7f6 d1a4 g8h6,black,1.0,black,CHECKMATE,0,44
+60,v10,43,g1f3 g8h6 f3d4 h6g8 b1a3 g7g5,white,1.0,white,CHECKMATE,0,75
+60,v10,43,g1f3 g8h6 f3d4 h6g8 b1a3 g7g5,black,1.0,black,CHECKMATE,0,40
+60,v10,44,e2e4 b7b5 f1c4 c8b7 h2h4 d7d6 c2c3 e8d7,white,1.0,white,CHECKMATE,0,107
+60,v10,44,e2e4 b7b5 f1c4 c8b7 h2h4 d7d6 c2c3 e8d7,black,1.0,black,CHECKMATE,0,78
+60,v10,45,d2d4 g7g6 g2g4 d7d6,white,0.0,black,CHECKMATE,0,46
+60,v10,45,d2d4 g7g6 g2g4 d7d6,black,0.5,draw,THREEFOLD_REPETITION,0,94
+60,v10,46,c2c4 e7e6 f2f4 a7a5 h2h3 f8b4,white,1.0,white,CHECKMATE,0,49
+60,v10,46,c2c4 e7e6 f2f4 a7a5 h2h3 f8b4,black,1.0,black,CHECKMATE,0,78
+60,v10,47,g1f3 f7f5 b2b3 a7a6 e2e4 b7b6 c1b2 c8b7,white,1.0,white,CHECKMATE,0,13
+60,v10,47,g1f3 f7f5 b2b3 a7a6 e2e4 b7b6 c1b2 c8b7,black,0.0,white,CHECKMATE,0,101
+60,v10,48,e2e4 d7d5 g1e2 a7a5,white,0.0,black,CHECKMATE,0,60
+60,v10,48,e2e4 d7d5 g1e2 a7a5,black,0.5,draw,STALEMATE,0,116
+60,v10,49,d2d4 h7h5 h2h3 c7c5 c2c3 g8h6,white,1.0,white,CHECKMATE,0,85
+60,v10,49,d2d4 h7h5 h2h3 c7c5 c2c3 g8h6,black,0.0,white,CHECKMATE,0,59
+60,random_legal,0,e2e4 c7c6 d1f3 g8f6,white,1.0,white,CHECKMATE,0,9
+60,random_legal,0,e2e4 c7c6 d1f3 g8f6,black,1.0,black,CHECKMATE,0,44
+60,random_legal,1,d2d4 b7b5 g1h3 c7c5 e2e3 g8h6,white,1.0,white,CHECKMATE,0,83
+60,random_legal,1,d2d4 b7b5 g1h3 c7c5 e2e3 g8h6,black,1.0,black,CHECKMATE,0,52
+60,random_legal,2,c2c4 c7c5 b1c3 b8a6 d1c2 h7h5 c2a4 d8a5,white,1.0,white,CHECKMATE,0,23
+60,random_legal,2,c2c4 c7c5 b1c3 b8a6 d1c2 h7h5 c2a4 d8a5,black,1.0,black,CHECKMATE,0,38
+60,random_legal,3,g1f3 b8a6 c2c4 g7g6,white,1.0,white,CHECKMATE,0,29
+60,random_legal,3,g1f3 b8a6 c2c4 g7g6,black,1.0,black,CHECKMATE,0,36
+60,random_legal,4,e2e4 b8c6 f1e2 c6e5 e2h5 e5f3,white,1.0,white,CHECKMATE,0,27
+60,random_legal,4,e2e4 b8c6 f1e2 c6e5 e2h5 e5f3,black,1.0,black,CHECKMATE,0,38
+60,random_legal,5,d2d4 f7f5 d1d2 e7e5 a2a3 b7b5 d4d5 e8f7,white,1.0,white,CHECKMATE,0,45
+60,random_legal,5,d2d4 f7f5 d1d2 e7e5 a2a3 b7b5 d4d5 e8f7,black,1.0,black,CHECKMATE,0,48
+60,random_legal,6,c2c4 f7f5 b1a3 a7a5,white,0.5,draw,THREEFOLD_REPETITION,0,55
+60,random_legal,6,c2c4 f7f5 b1a3 a7a5,black,1.0,black,CHECKMATE,0,20
+60,random_legal,7,g1f3 c7c5 a2a3 h7h6 e2e4 f7f6,white,1.0,white,CHECKMATE,0,45
+60,random_legal,7,g1f3 c7c5 a2a3 h7h6 e2e4 f7f6,black,1.0,black,CHECKMATE,0,22
+60,random_legal,8,e2e4 d7d5 f1a6 c8d7 b2b3 d5e4 c1a3 h7h6,white,1.0,white,CHECKMATE,0,5
+60,random_legal,8,e2e4 d7d5 f1a6 c8d7 b2b3 d5e4 c1a3 h7h6,black,1.0,black,CHECKMATE,0,18
+60,random_legal,9,d2d4 c7c5 g2g4 a7a6,white,1.0,white,CHECKMATE,0,15
+60,random_legal,9,d2d4 c7c5 g2g4 a7a6,black,1.0,black,CHECKMATE,0,40
+60,random_legal,10,c2c4 b7b6 b2b3 h7h6 e2e3 c8b7,white,1.0,white,CHECKMATE,0,31
+60,random_legal,10,c2c4 b7b6 b2b3 h7h6 e2e3 c8b7,black,1.0,black,CHECKMATE,0,28
+60,random_legal,11,g1f3 b8a6 h2h3 g7g5 d2d4 d7d5 e2e3 d8d6,white,1.0,white,CHECKMATE,0,23
+60,random_legal,11,g1f3 b8a6 h2h3 g7g5 d2d4 d7d5 e2e3 d8d6,black,0.5,draw,THREEFOLD_REPETITION,0,26
+60,random_legal,12,e2e4 b7b6 h2h3 c8b7,white,1.0,white,CHECKMATE,0,27
+60,random_legal,12,e2e4 b7b6 h2h3 c8b7,black,1.0,black,CHECKMATE,0,28
+60,random_legal,13,d2d4 b7b6 d4d5 f7f6 g2g4 b6b5,white,1.0,white,CHECKMATE,0,41
+60,random_legal,13,d2d4 b7b6 d4d5 f7f6 g2g4 b6b5,black,1.0,black,CHECKMATE,0,52
+60,random_legal,14,c2c4 e7e6 b2b4 b7b5 c4b5 e8e7 d1a4 e7d6,white,1.0,white,CHECKMATE,0,45
+60,random_legal,14,c2c4 e7e6 b2b4 b7b5 c4b5 e8e7 d1a4 e7d6,black,1.0,black,CHECKMATE,0,68
+60,random_legal,15,g1f3 g8f6 e2e3 e7e5,white,1.0,white,CHECKMATE,0,23
+60,random_legal,15,g1f3 g8f6 e2e3 e7e5,black,1.0,black,CHECKMATE,0,30
+60,random_legal,16,e2e4 g7g6 b1a3 b8c6 f1b5 f7f5,white,1.0,white,CHECKMATE,0,47
+60,random_legal,16,e2e4 g7g6 b1a3 b8c6 f1b5 f7f5,black,1.0,black,CHECKMATE,0,30
+60,random_legal,17,d2d4 c7c6 g2g4 d7d6 c1g5 d8d7 g5e3 d7d8,white,1.0,white,CHECKMATE,0,31
+60,random_legal,17,d2d4 c7c6 g2g4 d7d6 c1g5 d8d7 g5e3 d7d8,black,1.0,black,CHECKMATE,0,60
+60,random_legal,18,c2c4 b8a6 g1f3 f7f6,white,1.0,white,CHECKMATE,0,25
+60,random_legal,18,c2c4 b8a6 g1f3 f7f6,black,1.0,black,CHECKMATE,0,42
+60,random_legal,19,g1f3 e7e5 h2h4 f7f5 b2b4 c7c6,white,1.0,white,CHECKMATE,0,35
+60,random_legal,19,g1f3 e7e5 h2h4 f7f5 b2b4 c7c6,black,1.0,black,CHECKMATE,0,12
+60,random_legal,20,e2e4 h7h6 d2d4 g7g6 f1a6 b7b5 b2b3 f7f6,white,1.0,white,CHECKMATE,0,31
+60,random_legal,20,e2e4 h7h6 d2d4 g7g6 f1a6 b7b5 b2b3 f7f6,black,1.0,black,CHECKMATE,0,36
+60,random_legal,21,d2d4 f7f5 c1f4 b8a6,white,1.0,white,CHECKMATE,0,35
+60,random_legal,21,d2d4 f7f5 c1f4 b8a6,black,1.0,black,CHECKMATE,0,34
+60,random_legal,22,c2c4 b7b5 g2g4 c7c6 a2a3 a7a6,white,1.0,white,CHECKMATE,0,33
+60,random_legal,22,c2c4 b7b5 g2g4 c7c6 a2a3 a7a6,black,1.0,black,CHECKMATE,0,40
+60,random_legal,23,g1f3 h7h5 f3d4 g8h6 h2h4 b8a6 g2g3 g7g6,white,1.0,white,CHECKMATE,0,47
+60,random_legal,23,g1f3 h7h5 f3d4 g8h6 h2h4 b8a6 g2g3 g7g6,black,1.0,black,CHECKMATE,0,38
+60,random_legal,24,e2e4 h7h6 d1e2 b7b5,white,1.0,white,CHECKMATE,0,5
+60,random_legal,24,e2e4 h7h6 d1e2 b7b5,black,1.0,black,CHECKMATE,0,34
+60,random_legal,25,d2d4 c7c5 e2e4 g8h6 b2b3 b7b6,white,1.0,white,CHECKMATE,0,27
+60,random_legal,25,d2d4 c7c5 e2e4 g8h6 b2b3 b7b6,black,1.0,black,CHECKMATE,0,60
+60,random_legal,26,c2c4 h7h5 b2b4 e7e6 c1a3 d8h4 a3b2 h4d8,white,1.0,white,CHECKMATE,0,33
+60,random_legal,26,c2c4 h7h5 b2b4 e7e6 c1a3 d8h4 a3b2 h4d8,black,1.0,black,CHECKMATE,0,28
+60,random_legal,27,g1f3 b7b5 b1a3 c8a6,white,1.0,white,CHECKMATE,0,25
+60,random_legal,27,g1f3 b7b5 b1a3 c8a6,black,1.0,black,CHECKMATE,0,16
+60,random_legal,28,e2e4 a7a6 g1e2 g8h6 d2d4 e7e6,white,1.0,white,CHECKMATE,0,37
+60,random_legal,28,e2e4 a7a6 g1e2 g8h6 d2d4 e7e6,black,1.0,black,CHECKMATE,0,24
+60,random_legal,29,d2d4 d7d5 g2g4 d8d6 d1d3 b7b5 f2f4 c7c6,white,0.5,draw,THREEFOLD_REPETITION,0,21
+60,random_legal,29,d2d4 d7d5 g2g4 d8d6 d1d3 b7b5 f2f4 c7c6,black,1.0,black,CHECKMATE,0,50
+60,random_legal,30,c2c4 b8a6 a2a4 h7h5,white,1.0,white,CHECKMATE,0,33
+60,random_legal,30,c2c4 b8a6 a2a4 h7h5,black,1.0,black,CHECKMATE,0,50
+60,random_legal,31,g1f3 f7f5 h2h3 e8f7 f3g5 f7e8,white,1.0,white,CHECKMATE,0,43
+60,random_legal,31,g1f3 f7f5 h2h3 e8f7 f3g5 f7e8,black,1.0,black,CHECKMATE,0,58
+60,random_legal,32,e2e4 e7e5 d2d4 d8f6 d1d3 h7h5 d3h3 f8a3,white,1.0,white,CHECKMATE,0,31
+60,random_legal,32,e2e4 e7e5 d2d4 d8f6 d1d3 h7h5 d3h3 f8a3,black,1.0,black,CHECKMATE,0,18
+60,random_legal,33,d2d4 h7h5 f2f3 b8a6,white,1.0,white,CHECKMATE,0,33
+60,random_legal,33,d2d4 h7h5 f2f3 b8a6,black,1.0,black,CHECKMATE,0,50
+60,random_legal,34,c2c4 h7h6 f2f3 g8f6 d1a4 b8a6,white,1.0,white,CHECKMATE,0,23
+60,random_legal,34,c2c4 h7h6 f2f3 g8f6 d1a4 b8a6,black,1.0,black,CHECKMATE,0,36
+60,random_legal,35,g1f3 b7b5 a2a3 b8c6 c2c3 c6a5 a1a2 h7h6,white,1.0,white,CHECKMATE,0,7
+60,random_legal,35,g1f3 b7b5 a2a3 b8c6 c2c3 c6a5 a1a2 h7h6,black,1.0,black,CHECKMATE,0,40
+60,random_legal,36,e2e4 b8a6 a2a3 e7e6,white,1.0,white,CHECKMATE,0,35
+60,random_legal,36,e2e4 b8a6 a2a3 e7e6,black,1.0,black,CHECKMATE,0,26
+60,random_legal,37,d2d4 h7h6 d1d2 g8f6 d2d1 c7c5,white,1.0,white,CHECKMATE,0,33
+60,random_legal,37,d2d4 h7h6 d1d2 g8f6 d2d1 c7c5,black,1.0,black,CHECKMATE,0,30
+60,random_legal,38,c2c4 d7d6 a2a3 g8h6 d1c2 g7g5 g2g4 b8d7,white,1.0,white,CHECKMATE,0,45
+60,random_legal,38,c2c4 d7d6 a2a3 g8h6 d1c2 g7g5 g2g4 b8d7,black,1.0,black,CHECKMATE,0,42
+60,random_legal,39,g1f3 a7a5 a2a4 b8c6,white,1.0,white,CHECKMATE,0,27
+60,random_legal,39,g1f3 a7a5 a2a4 b8c6,black,1.0,black,CHECKMATE,0,42
+60,random_legal,40,e2e4 d7d6 b1c3 c7c5 f1c4 d6d5,white,1.0,white,CHECKMATE,0,61
+60,random_legal,40,e2e4 d7d6 b1c3 c7c5 f1c4 d6d5,black,1.0,black,CHECKMATE,0,20
+60,random_legal,41,d2d4 b7b5 g2g3 c8b7 b1a3 b7g2 f1g2 g8h6,white,1.0,white,CHECKMATE,0,43
+60,random_legal,41,d2d4 b7b5 g2g3 c8b7 b1a3 b7g2 f1g2 g8h6,black,1.0,black,CHECKMATE,0,38
+60,random_legal,42,c2c4 f7f6 d1a4 g8h6,white,1.0,white,CHECKMATE,0,39
+60,random_legal,42,c2c4 f7f6 d1a4 g8h6,black,1.0,black,CHECKMATE,0,22
+60,random_legal,43,g1f3 g8h6 f3d4 h6g8 b1a3 g7g5,white,1.0,white,CHECKMATE,0,35
+60,random_legal,43,g1f3 g8h6 f3d4 h6g8 b1a3 g7g5,black,1.0,black,CHECKMATE,0,40
+60,random_legal,44,e2e4 b7b5 f1c4 c8b7 h2h4 d7d6 c2c3 e8d7,white,1.0,white,CHECKMATE,0,5
+60,random_legal,44,e2e4 b7b5 f1c4 c8b7 h2h4 d7d6 c2c3 e8d7,black,1.0,black,CHECKMATE,0,30
+60,random_legal,45,d2d4 g7g6 g2g4 d7d6,white,1.0,white,CHECKMATE,0,33
+60,random_legal,45,d2d4 g7g6 g2g4 d7d6,black,1.0,black,CHECKMATE,0,50
+60,random_legal,46,c2c4 e7e6 f2f4 a7a5 h2h3 f8b4,white,1.0,white,CHECKMATE,0,57
+60,random_legal,46,c2c4 e7e6 f2f4 a7a5 h2h3 f8b4,black,1.0,black,CHECKMATE,0,22
+60,random_legal,47,g1f3 f7f5 b2b3 a7a6 e2e4 b7b6 c1b2 c8b7,white,1.0,white,CHECKMATE,0,15
+60,random_legal,47,g1f3 f7f5 b2b3 a7a6 e2e4 b7b6 c1b2 c8b7,black,1.0,black,CHECKMATE,0,40
+60,random_legal,48,e2e4 d7d5 g1e2 a7a5,white,1.0,white,CHECKMATE,0,49
+60,random_legal,48,e2e4 d7d5 g1e2 a7a5,black,1.0,black,CHECKMATE,0,28
+60,random_legal,49,d2d4 h7h5 h2h3 c7c5 c2c3 g8h6,white,1.0,white,CHECKMATE,0,31
+60,random_legal,49,d2d4 h7h5 h2h3 c7c5 c2c3 g8h6,black,1.0,black,CHECKMATE,0,36
+60,supervised_1m,0,e2e4 c7c6 d1f3 g8f6,white,1.0,white,CHECKMATE,0,113
+60,supervised_1m,0,e2e4 c7c6 d1f3 g8f6,black,1.0,black,CHECKMATE,0,86
+60,supervised_1m,1,d2d4 b7b5 g1h3 c7c5 e2e3 g8h6,white,1.0,white,CHECKMATE,0,51
+60,supervised_1m,1,d2d4 b7b5 g1h3 c7c5 e2e3 g8h6,black,1.0,black,CHECKMATE,0,52
+60,supervised_1m,2,c2c4 c7c5 b1c3 b8a6 d1c2 h7h5 c2a4 d8a5,white,0.5,draw,THREEFOLD_REPETITION,0,51
+60,supervised_1m,2,c2c4 c7c5 b1c3 b8a6 d1c2 h7h5 c2a4 d8a5,black,1.0,black,CHECKMATE,0,80
+60,supervised_1m,3,g1f3 b8a6 c2c4 g7g6,white,1.0,white,CHECKMATE,0,91
+60,supervised_1m,3,g1f3 b8a6 c2c4 g7g6,black,1.0,black,CHECKMATE,0,64
+60,supervised_1m,4,e2e4 b8c6 f1e2 c6e5 e2h5 e5f3,white,1.0,white,CHECKMATE,0,59
+60,supervised_1m,4,e2e4 b8c6 f1e2 c6e5 e2h5 e5f3,black,1.0,black,CHECKMATE,0,60
+60,supervised_1m,5,d2d4 f7f5 d1d2 e7e5 a2a3 b7b5 d4d5 e8f7,white,1.0,white,CHECKMATE,0,19
+60,supervised_1m,5,d2d4 f7f5 d1d2 e7e5 a2a3 b7b5 d4d5 e8f7,black,0.5,draw,THREEFOLD_REPETITION,0,45
+60,supervised_1m,6,c2c4 f7f5 b1a3 a7a5,white,1.0,white,CHECKMATE,0,59
+60,supervised_1m,6,c2c4 f7f5 b1a3 a7a5,black,1.0,black,CHECKMATE,0,64
+60,supervised_1m,7,g1f3 c7c5 a2a3 h7h6 e2e4 f7f6,white,1.0,white,CHECKMATE,0,7
+60,supervised_1m,7,g1f3 c7c5 a2a3 h7h6 e2e4 f7f6,black,1.0,black,CHECKMATE,0,36
+60,supervised_1m,8,e2e4 d7d5 f1a6 c8d7 b2b3 d5e4 c1a3 h7h6,white,0.5,draw,THREEFOLD_REPETITION,0,46
+60,supervised_1m,8,e2e4 d7d5 f1a6 c8d7 b2b3 d5e4 c1a3 h7h6,black,1.0,black,CHECKMATE,0,22
+60,supervised_1m,9,d2d4 c7c5 g2g4 a7a6,white,1.0,white,CHECKMATE,0,31
+60,supervised_1m,9,d2d4 c7c5 g2g4 a7a6,black,1.0,black,CHECKMATE,0,128
+60,supervised_1m,10,c2c4 b7b6 b2b3 h7h6 e2e3 c8b7,white,1.0,white,CHECKMATE,0,81
+60,supervised_1m,10,c2c4 b7b6 b2b3 h7h6 e2e3 c8b7,black,1.0,black,CHECKMATE,0,54
+60,supervised_1m,11,g1f3 b8a6 h2h3 g7g5 d2d4 d7d5 e2e3 d8d6,white,1.0,white,CHECKMATE,0,63
+60,supervised_1m,11,g1f3 b8a6 h2h3 g7g5 d2d4 d7d5 e2e3 d8d6,black,0.5,draw,THREEFOLD_REPETITION,0,92
+60,supervised_1m,12,e2e4 b7b6 h2h3 c8b7,white,1.0,white,CHECKMATE,0,51
+60,supervised_1m,12,e2e4 b7b6 h2h3 c8b7,black,1.0,black,CHECKMATE,0,42
+60,supervised_1m,13,d2d4 b7b6 d4d5 f7f6 g2g4 b6b5,white,1.0,white,CHECKMATE,0,33
+60,supervised_1m,13,d2d4 b7b6 d4d5 f7f6 g2g4 b6b5,black,1.0,black,CHECKMATE,0,36
+60,supervised_1m,14,c2c4 e7e6 b2b4 b7b5 c4b5 e8e7 d1a4 e7d6,white,1.0,white,CHECKMATE,0,57
+60,supervised_1m,14,c2c4 e7e6 b2b4 b7b5 c4b5 e8e7 d1a4 e7d6,black,1.0,black,CHECKMATE,0,48
+60,supervised_1m,15,g1f3 g8f6 e2e3 e7e5,white,1.0,white,CHECKMATE,0,65
+60,supervised_1m,15,g1f3 g8f6 e2e3 e7e5,black,1.0,black,CHECKMATE,0,68
+60,supervised_1m,16,e2e4 g7g6 b1a3 b8c6 f1b5 f7f5,white,1.0,white,CHECKMATE,0,103
+60,supervised_1m,16,e2e4 g7g6 b1a3 b8c6 f1b5 f7f5,black,1.0,black,CHECKMATE,0,82
+60,supervised_1m,17,d2d4 c7c6 g2g4 d7d6 c1g5 d8d7 g5e3 d7d8,white,1.0,white,CHECKMATE,0,59
+60,supervised_1m,17,d2d4 c7c6 g2g4 d7d6 c1g5 d8d7 g5e3 d7d8,black,1.0,black,CHECKMATE,0,66
+60,supervised_1m,18,c2c4 b8a6 g1f3 f7f6,white,0.5,draw,STALEMATE,0,67
+60,supervised_1m,18,c2c4 b8a6 g1f3 f7f6,black,1.0,black,CHECKMATE,0,94
+60,supervised_1m,19,g1f3 e7e5 h2h4 f7f5 b2b4 c7c6,white,0.5,draw,THREEFOLD_REPETITION,0,67
+60,supervised_1m,19,g1f3 e7e5 h2h4 f7f5 b2b4 c7c6,black,1.0,black,CHECKMATE,0,70
+60,supervised_1m,20,e2e4 h7h6 d2d4 g7g6 f1a6 b7b5 b2b3 f7f6,white,1.0,white,CHECKMATE,0,29
+60,supervised_1m,20,e2e4 h7h6 d2d4 g7g6 f1a6 b7b5 b2b3 f7f6,black,1.0,black,CHECKMATE,0,64
+60,supervised_1m,21,d2d4 f7f5 c1f4 b8a6,white,1.0,white,CHECKMATE,0,73
+60,supervised_1m,21,d2d4 f7f5 c1f4 b8a6,black,0.5,draw,THREEFOLD_REPETITION,0,47
+60,supervised_1m,22,c2c4 b7b5 g2g4 c7c6 a2a3 a7a6,white,1.0,white,CHECKMATE,0,57
+60,supervised_1m,22,c2c4 b7b5 g2g4 c7c6 a2a3 a7a6,black,1.0,black,CHECKMATE,0,102
+60,supervised_1m,23,g1f3 h7h5 f3d4 g8h6 h2h4 b8a6 g2g3 g7g6,white,1.0,white,CHECKMATE,0,55
+60,supervised_1m,23,g1f3 h7h5 f3d4 g8h6 h2h4 b8a6 g2g3 g7g6,black,1.0,black,CHECKMATE,0,68
+60,supervised_1m,24,e2e4 h7h6 d1e2 b7b5,white,1.0,white,CHECKMATE,0,53
+60,supervised_1m,24,e2e4 h7h6 d1e2 b7b5,black,1.0,black,CHECKMATE,0,84
+60,supervised_1m,25,d2d4 c7c5 e2e4 g8h6 b2b3 b7b6,white,1.0,white,CHECKMATE,0,47
+60,supervised_1m,25,d2d4 c7c5 e2e4 g8h6 b2b3 b7b6,black,1.0,black,CHECKMATE,0,36
+60,supervised_1m,26,c2c4 h7h5 b2b4 e7e6 c1a3 d8h4 a3b2 h4d8,white,0.5,draw,THREEFOLD_REPETITION,0,50
+60,supervised_1m,26,c2c4 h7h5 b2b4 e7e6 c1a3 d8h4 a3b2 h4d8,black,1.0,black,CHECKMATE,0,50
+60,supervised_1m,27,g1f3 b7b5 b1a3 c8a6,white,1.0,white,CHECKMATE,0,61
+60,supervised_1m,27,g1f3 b7b5 b1a3 c8a6,black,1.0,black,CHECKMATE,0,76
+60,supervised_1m,28,e2e4 a7a6 g1e2 g8h6 d2d4 e7e6,white,1.0,white,CHECKMATE,0,47
+60,supervised_1m,28,e2e4 a7a6 g1e2 g8h6 d2d4 e7e6,black,1.0,black,CHECKMATE,0,56
+60,supervised_1m,29,d2d4 d7d5 g2g4 d8d6 d1d3 b7b5 f2f4 c7c6,white,1.0,white,CHECKMATE,0,27
+60,supervised_1m,29,d2d4 d7d5 g2g4 d8d6 d1d3 b7b5 f2f4 c7c6,black,1.0,black,CHECKMATE,0,34
+60,supervised_1m,30,c2c4 b8a6 a2a4 h7h5,white,1.0,white,CHECKMATE,0,41
+60,supervised_1m,30,c2c4 b8a6 a2a4 h7h5,black,1.0,black,CHECKMATE,0,32
+60,supervised_1m,31,g1f3 f7f5 h2h3 e8f7 f3g5 f7e8,white,1.0,white,CHECKMATE,0,41
+60,supervised_1m,31,g1f3 f7f5 h2h3 e8f7 f3g5 f7e8,black,1.0,black,CHECKMATE,0,60
+60,supervised_1m,32,e2e4 e7e5 d2d4 d8f6 d1d3 h7h5 d3h3 f8a3,white,1.0,white,CHECKMATE,0,51
+60,supervised_1m,32,e2e4 e7e5 d2d4 d8f6 d1d3 h7h5 d3h3 f8a3,black,1.0,black,CHECKMATE,0,52
+60,supervised_1m,33,d2d4 h7h5 f2f3 b8a6,white,1.0,white,CHECKMATE,0,63
+60,supervised_1m,33,d2d4 h7h5 f2f3 b8a6,black,1.0,black,CHECKMATE,0,56
+60,supervised_1m,34,c2c4 h7h6 f2f3 g8f6 d1a4 b8a6,white,0.5,draw,THREEFOLD_REPETITION,0,91
+60,supervised_1m,34,c2c4 h7h6 f2f3 g8f6 d1a4 b8a6,black,1.0,black,CHECKMATE,0,28
+60,supervised_1m,35,g1f3 b7b5 a2a3 b8c6 c2c3 c6a5 a1a2 h7h6,white,1.0,white,CHECKMATE,0,91
+60,supervised_1m,35,g1f3 b7b5 a2a3 b8c6 c2c3 c6a5 a1a2 h7h6,black,0.5,draw,STALEMATE,0,78
+60,supervised_1m,36,e2e4 b8a6 a2a3 e7e6,white,1.0,white,CHECKMATE,0,51
+60,supervised_1m,36,e2e4 b8a6 a2a3 e7e6,black,1.0,black,CHECKMATE,0,66
+60,supervised_1m,37,d2d4 h7h6 d1d2 g8f6 d2d1 c7c5,white,1.0,white,CHECKMATE,0,53
+60,supervised_1m,37,d2d4 h7h6 d1d2 g8f6 d2d1 c7c5,black,1.0,black,CHECKMATE,0,52
+60,supervised_1m,38,c2c4 d7d6 a2a3 g8h6 d1c2 g7g5 g2g4 b8d7,white,1.0,white,CHECKMATE,0,67
+60,supervised_1m,38,c2c4 d7d6 a2a3 g8h6 d1c2 g7g5 g2g4 b8d7,black,1.0,black,CHECKMATE,0,86
+60,supervised_1m,39,g1f3 a7a5 a2a4 b8c6,white,1.0,white,CHECKMATE,0,75
+60,supervised_1m,39,g1f3 a7a5 a2a4 b8c6,black,0.5,draw,THREEFOLD_REPETITION,0,68
+60,supervised_1m,40,e2e4 d7d6 b1c3 c7c5 f1c4 d6d5,white,0.5,draw,THREEFOLD_REPETITION,0,59
+60,supervised_1m,40,e2e4 d7d6 b1c3 c7c5 f1c4 d6d5,black,1.0,black,CHECKMATE,0,54
+60,supervised_1m,41,d2d4 b7b5 g2g3 c8b7 b1a3 b7g2 f1g2 g8h6,white,1.0,white,CHECKMATE,0,31
+60,supervised_1m,41,d2d4 b7b5 g2g3 c8b7 b1a3 b7g2 f1g2 g8h6,black,1.0,black,CHECKMATE,0,92
+60,supervised_1m,42,c2c4 f7f6 d1a4 g8h6,white,1.0,white,CHECKMATE,0,27
+60,supervised_1m,42,c2c4 f7f6 d1a4 g8h6,black,1.0,black,CHECKMATE,0,88
+60,supervised_1m,43,g1f3 g8h6 f3d4 h6g8 b1a3 g7g5,white,1.0,white,CHECKMATE,0,85
+60,supervised_1m,43,g1f3 g8h6 f3d4 h6g8 b1a3 g7g5,black,1.0,black,CHECKMATE,0,72
+60,supervised_1m,44,e2e4 b7b5 f1c4 c8b7 h2h4 d7d6 c2c3 e8d7,white,0.5,draw,THREEFOLD_REPETITION,0,93
+60,supervised_1m,44,e2e4 b7b5 f1c4 c8b7 h2h4 d7d6 c2c3 e8d7,black,1.0,black,CHECKMATE,0,58
+60,supervised_1m,45,d2d4 g7g6 g2g4 d7d6,white,1.0,white,CHECKMATE,0,49
+60,supervised_1m,45,d2d4 g7g6 g2g4 d7d6,black,1.0,black,CHECKMATE,0,50
+60,supervised_1m,46,c2c4 e7e6 f2f4 a7a5 h2h3 f8b4,white,1.0,white,CHECKMATE,0,61
+60,supervised_1m,46,c2c4 e7e6 f2f4 a7a5 h2h3 f8b4,black,1.0,black,CHECKMATE,0,82
+60,supervised_1m,47,g1f3 f7f5 b2b3 a7a6 e2e4 b7b6 c1b2 c8b7,white,1.0,white,CHECKMATE,0,53
+60,supervised_1m,47,g1f3 f7f5 b2b3 a7a6 e2e4 b7b6 c1b2 c8b7,black,1.0,black,CHECKMATE,0,132
+60,supervised_1m,48,e2e4 d7d5 g1e2 a7a5,white,1.0,white,CHECKMATE,0,91
+60,supervised_1m,48,e2e4 d7d5 g1e2 a7a5,black,0.5,draw,STALEMATE,0,98
+60,supervised_1m,49,d2d4 h7h5 h2h3 c7c5 c2c3 g8h6,white,1.0,white,CHECKMATE,0,45
+60,supervised_1m,49,d2d4 h7h5 h2h3 c7c5 c2c3 g8h6,black,1.0,black,CHECKMATE,0,34

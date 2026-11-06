@@ -1,0 +1,23 @@
+{
+  "checkpoint_sha256": "75bec742766a4c9709211ade12719064bc0eb6405a4931314cd7d2178f04a748",
+  "device": "cuda",
+  "games": 32,
+  "max_plies": 80,
+  "batch_size": 32,
+  "sequential_seconds": 10.152,
+  "batch_seconds": 1.328,
+  "sequential": {
+    "plies": 2245,
+    "transitions": 1118,
+    "truncated": 14
+  },
+  "batched": {
+    "plies": 2091,
+    "transitions": 1042,
+    "truncated": 14
+  },
+  "sequential_plies_per_sec": 221.14,
+  "batch_plies_per_sec": 1575.14,
+  "observed_throughput_speedup": 7.123,
+  "note": "Trajectories differ because batched sampling changes random draw order. This compares throughput, not exact identical games. No weights changed."
+}

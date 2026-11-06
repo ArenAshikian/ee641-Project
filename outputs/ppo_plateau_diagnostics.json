@@ -1,0 +1,139 @@
+{
+  "experiment": "PPO plateau diagnosis; NO SEARCH",
+  "checkpoint_sha256": {
+    "v0": "407ae27f7033f1070da7e8fe45dc9146cf89a1bad4dde60fc2f562accd30593e",
+    "v100": "585589ce794dc36b83caca93202a7592eec5b19634e522efc48405f0f628d700"
+  },
+  "opening_pairs_per_model": 32,
+  "training": {
+    "iterations_logged": 90,
+    "total_games_in_long_run": 11520,
+    "total_learner_moves_in_long_run": 503119,
+    "total_optimizer_steps_in_long_run": 15818,
+    "recent_opponent_share": 0.4991,
+    "historical_opponent_share": 0.5009,
+    "warning": "Loss, entropy, clip fraction, and approximate KL in this CSV are from the final minibatch only, not iteration-wide means. Per-historical-opponent game results were not stored."
+  },
+  "sampled_games": {
+    "v0": {
+      "game_results": {
+        "games": 64,
+        "wins": 24,
+        "draws": 15,
+        "losses": 25,
+        "truncated": 0,
+        "score_on_completed_games": 0.4922
+      },
+      "value_fit": {
+        "positions": 2413,
+        "value_mse_vs_terminal_result": 0.55768,
+        "zero_prediction_mse": 0.69208,
+        "best_constant_mse": 0.67843,
+        "value_r2_vs_constant": 0.178,
+        "value_outcome_correlation": 0.5206,
+        "mean_predicted_value": 0.0357,
+        "mean_terminal_result": 0.1169,
+        "mean_absolute_error": 0.58,
+        "mean_value_given_win": 0.4606,
+        "mean_value_given_draw": -0.1524,
+        "mean_value_given_loss": -0.3605
+      },
+      "value_fit_white": {
+        "positions": 1184,
+        "value_mse_vs_terminal_result": 0.58615,
+        "zero_prediction_mse": 0.73818,
+        "best_constant_mse": 0.6854,
+        "value_r2_vs_constant": 0.1448,
+        "value_outcome_correlation": 0.4791,
+        "mean_predicted_value": 0.1876,
+        "mean_terminal_result": 0.2297,
+        "mean_absolute_error": 0.5938,
+        "mean_value_given_win": 0.5222,
+        "mean_value_given_draw": -0.089,
+        "mean_value_given_loss": -0.1646
+      },
+      "value_fit_black": {
+        "positions": 1229,
+        "value_mse_vs_terminal_result": 0.53026,
+        "zero_prediction_mse": 0.64768,
+        "best_constant_mse": 0.64761,
+        "value_r2_vs_constant": 0.1812,
+        "value_outcome_correlation": 0.5357,
+        "mean_predicted_value": -0.1106,
+        "mean_terminal_result": 0.0081,
+        "mean_absolute_error": 0.5667,
+        "mean_value_given_win": 0.373,
+        "mean_value_given_draw": -0.1978,
+        "mean_value_given_loss": -0.5105
+      },
+      "value_note": "Outcome targets are +1/0/-1 from learner perspective, repeated for each learner decision in a completed game. Positions within a game are correlated. Truncated games are omitted from value-fit metrics."
+    },
+    "v100": {
+      "game_results": {
+        "games": 64,
+        "wins": 39,
+        "draws": 9,
+        "losses": 16,
+        "truncated": 0,
+        "score_on_completed_games": 0.6797
+      },
+      "value_fit": {
+        "positions": 2396,
+        "value_mse_vs_terminal_result": 0.50421,
+        "zero_prediction_mse": 0.82554,
+        "best_constant_mse": 0.64644,
+        "value_r2_vs_constant": 0.22,
+        "value_outcome_correlation": 0.5326,
+        "mean_predicted_value": 0.2251,
+        "mean_terminal_result": 0.4232,
+        "mean_absolute_error": 0.5825,
+        "mean_value_given_win": 0.4033,
+        "mean_value_given_draw": 0.1054,
+        "mean_value_given_loss": -0.2245
+      },
+      "value_fit_white": {
+        "positions": 1237,
+        "value_mse_vs_terminal_result": 0.53187,
+        "zero_prediction_mse": 0.91835,
+        "best_constant_mse": 0.62673,
+        "value_r2_vs_constant": 0.1514,
+        "value_outcome_correlation": 0.4757,
+        "mean_predicted_value": 0.3292,
+        "mean_terminal_result": 0.54,
+        "mean_absolute_error": 0.617,
+        "mean_value_given_win": 0.4331,
+        "mean_value_given_draw": 0.4409,
+        "mean_value_given_loss": -0.1194
+      },
+      "value_fit_black": {
+        "positions": 1159,
+        "value_mse_vs_terminal_result": 0.47468,
+        "zero_prediction_mse": 0.72649,
+        "best_constant_mse": 0.63737,
+        "value_r2_vs_constant": 0.2552,
+        "value_outcome_correlation": 0.5585,
+        "mean_predicted_value": 0.1139,
+        "mean_terminal_result": 0.2985,
+        "mean_absolute_error": 0.5458,
+        "mean_value_given_win": 0.3581,
+        "mean_value_given_draw": -0.0014,
+        "mean_value_given_loss": -0.3236
+      },
+      "value_note": "Outcome targets are +1/0/-1 from learner perspective, repeated for each learner decision in a completed game. Positions within a game are correlated. Truncated games are omitted from value-fit metrics."
+    }
+  },
+  "policies_on_identical_states": {
+    "positions": 512,
+    "greedy_move_agreement_rate": 0.7773,
+    "v0_legal_policy_entropy": 1.419,
+    "v100_legal_policy_entropy": 1.0071,
+    "kl_v100_vs_v0_on_same_states": 0.1728,
+    "mean_absolute_value_difference": 0.1512,
+    "note": "Policy comparisons use identical encoded positions and legal masks, from sampled games. No engine or search is involved."
+  },
+  "notes": [
+    "This is a diagnostic, not a randomized trial proving the cause of a plateau.",
+    "Sampled games match PPO collection, while championship uses greedy argmax play.",
+    "Model weights and optimizer state are never changed."
+  ]
+}
